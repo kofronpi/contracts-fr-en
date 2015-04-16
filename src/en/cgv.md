@@ -112,7 +112,7 @@ the involved fault.
 In no case can {{ company.name }} be liable for indirect damages such as, but not only, data loss, commercial damage, reputation harm,
 orders and bookings loss, loss of revenue and loss of customers.
 
-The amount of the compensation at the expense of {{ company.name }} cannot exceed the total price of the Deliverable without tax.
+The amount of the compensation at the expense of {{ company.name }} cannot exceed the total price of the Deliverable.
 
 ### 5.2. Force majeure and Customer responsibility
 
@@ -222,7 +222,7 @@ aux termes du présent contrat.
 
 ## Article 9. Term
 
-This Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Section 4 of this Agreement, will continue until the Services have been satisfactorily completed and the Developer has been paid in full for such Services (the “Term”) [or on the expiration of the Warranty Period as defined in subsection 9(a) of this Agreement.].
+This Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Article 13 of this Document, will continue until the Services have been satisfactorily completed and the Developer has been paid in full for such Services (the “Term”) [or on the expiration of the Warranty Period as defined in the Particular conditions of contract.].
 
 ## Article 10. Price and payment mode
 
@@ -261,15 +261,7 @@ Neither party will be considered to acquiesce to any breach of obligations descr
 
 For both parties, in case of a breach of obligations described in this Document and if not repaired within 15 days (starting upon reception of registered letter with recorded delivery notifying said breach), the present contract will be rightfully terminated.
 
-## Article 14. Applicable law and relevant jurisdiction
-
-The present contract is submitted to the French law.
-
-If it must comply with another country's law, it must be agreed upon in the Particular conditions of contract.
-
-In case of a legal dispute, the exclusive authority is attributed to the Paris Court, even for summary judgement and summonings to urgent proceedings, notwithstanding plurality of defendants or claims under warranty.
-
-## Confidentiality
+## Article 14. Confidentiality
 
 Le Client considère comme confidentielles toutes les informations dont il sera
 amené à avoir connaissance dans le cadre de ses relations avec {{ company.name }}.
@@ -284,3 +276,12 @@ valable pour une durée de 10 ans.
 
 Les présentes stipulations constituent les Conditions particulières du contrat
 de développement conclu entre les Parties.
+
+## Article 15. Applicable law and relevant jurisdiction
+
+The present contract is submitted to the French law.
+
+If it must comply with another country's law, it must be agreed upon in the Particular conditions of contract.
+
+In case of a legal dispute, the exclusive authority is attributed to the Paris Court, even for summary judgement and summonings to urgent proceedings, notwithstanding plurality of defendants or claims under warranty.
+
