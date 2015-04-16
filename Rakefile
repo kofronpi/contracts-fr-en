@@ -7,7 +7,7 @@ end
 
 task :handlebars do |t, args|
   handlebars = Handlebars::Context.new
-  ['cp', 'cgv'].each do |file|
+  ['cp', 'cgv', 'pcc'].each do |file|
     File.write(
       "tmp/#{file}.md",
       handlebars.compile(
@@ -23,7 +23,7 @@ end
 
 task :pdf do
   `mkdir contracts`
-  ['cp', 'cgv'].each do |file|
+  ['cp', 'cgv', 'pcc'].each do |file|
     `rm contracts/#{file}.pdf`
     `gimli -f tmp/#{file}.md -o contracts`
   end
