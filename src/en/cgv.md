@@ -68,7 +68,7 @@ The Customer provides information, data, and an optional bill of specifications 
 Deliverable. {{ company.name }} will therefore establish the architecture of the Deliverable with these elements accounted for. Both parties can collaborate to modify specifications, but this time spent cannot be accounted for in
 the realization milestones.
 
-#### 3.2.2 Step 2 – Deliverable realization
+#### 3.2.2 Step 2 – Deliverable development
 
 When the Customer validates the architecture, {{ company.name }} will realize and develop the Deliverable.
 When the development and Quality Assurance phase ends, the Deliverable is delivered to the Customer in compliance with article 6 of this Document.
@@ -77,18 +77,9 @@ When the development and Quality Assurance phase ends, the Deliverable is delive
 
 Both parties can agree of another work methodology - "ad hoc". In this case, it will be described in the Particular conditions of contract.
 
-## Article 4. Procédure de réception
+## Article 4. Delivery
 
-À la fin de chacune des phases de développement, {{ company.name }} livre au Client
-un Livrable. Dans un délai de 1 semaine à compter de la livraison, le Client
-valide le Livrable ou émet des réserves sur celui-ci.
-
-Si le Client émet des réserves dans le délai précité, {{ company.name }} procédera
-aux Corrections du Livrable, à l’exclusion de toute Évolution.
-
-Si le Client n’a émis aucune réserve dans le délai précité, le Livrable soumis
-au Client est considéré comme étant tacitement réceptionnée par celui-ci.
-
+The delivery process depends of the work methodology and shall be described in the Particular conditions of contract.
 
 ## Article 5. Responsibility
 
@@ -99,12 +90,6 @@ au Client est considéré comme étant tacitement réceptionnée par celui-ci.
 Assuming that the Customer would realize himself an Evolution or would assign an Evolution to a third-party,
 {{ company.name }} will no longer be accountable for Patches of the Deliverable. {{ company.name }} excludes for that matter any responsibility regarding Evolutions brought up by the Customer or a third-party to the Deliverable.
 
-La réception du Livrable par le Client couvre les défauts de conformité
-apparents et les vices apparents. Toute action à l’encontre de {{ company.name }},
-notamment au titre d’un défaut de conformité caché ou d’un vice caché, est
-prescrite dans le délai d’un an à compter de la réception définitive du
-Livrable par le Client.
-
 {{ company.name }} excludes all responsibility concerning the use or purchase of a distinctive sign (domain name, brand, title, commercial name, social denomination...) requested by the Customer.
 
 The liability of {{ company.name }} is limited to the direct damage, personal and certain suffered by the Customer and related to
@@ -113,6 +98,8 @@ In no case can {{ company.name }} be liable for indirect damages such as, but no
 orders and bookings loss, loss of revenue and loss of customers.
 
 The amount of the compensation at the expense of {{ company.name }} cannot exceed the total price of the Deliverable.
+
+Any plea against {{ company.name }} about a hidden defect must be done within a year upon effective delivery.
 
 ### 5.2. Force majeure and Customer responsibility
 
@@ -136,89 +123,27 @@ The Customer claims to hold all rights and authorizations allowing the use of th
 ## Article 7. Intellectual property
 
 ### 7.1. Deliverable intellectual rights
-Le Livrable est composé le cas échéant :
 
-* d’un framework : composant logiciel structurel, définissant les fondations
-  du Livrable. Le framework est placé sous licence spécifique. Le Client est
-  investi des droits sur le framework conformément à cette licence spécifique.
+The Deliverable is made up of, if need be:
 
-* des développements spécifiques : contenus réalisés spécifiquement par
-  {{ company.name }} pour le Client dans le cadre de la méthode Agile. Le Client est
-  investi des droits sur les développements spécifiques conformément à
-  l’article 9.2 des présentes conditions générales ;
+* A framework: structural software component, defining the foundation of the Deliverable. The framework has a specific license. The Customer has rights on the framework according to this particular license.
 
-* des Éléments apportés : contenus de toute nature (codes, textes, images,
-  sons…) insérés dans le Livrable, soit par {{ company.name }} à la demande du
-  Client, soit par le Client lui-même. Le Client reste titulaire des droits
-  sur les Éléments apportés qu’il met à la disposition de {{ company.name }} pour la
-  réalisation de la prestation.
+* Specific development: content realized specifically by
+  {{ company.name }} for the Customer. The Customer has a license on these specific development, as specified in section 7.2.
+
+* Provided assets : contents of all kind (code, texts, images, sounds) as defined in Article 1. The Customer keeps ownership of the provided assets.
 
 ### 7.2. Exclusive licence for the Deliverable
 
-Unless otherwise specified in the Particular conditions of contract, {{ company.name }} grants to the Customer an exclusive licence for the exploitation, reproduction,  of the Deliverable.
+Unless otherwise specified in the Particular conditions of contract, {{ company.name }} grants to the Customer an exclusive licence for the exploitation, reproduction, representation, modification, commercialization, translation of the Deliverable for all duration set by the applicable law, on any support and in any format.
 
-À défaut de mention contraire dans les Conditions particulières, {{ company.name }}
-consent au Client à titre exclusif une licence portant sur l’intégralité des
-droits patrimoniaux sur les développements spécifiques, et notamment sur les
-droits d’exploitation, de reproduction, de représentation, d’édition, de
-commercialisation, de traduction dont il est titulaire, pour toute la durée de
-protection des droits de propriété intellectuelle et pour le monde entier, par
-tout procédé, quel qu’il soit, connu ou inconnu à ce jour, et notamment par
-tous les réseaux de communication, actuels et futurs, et ce sur tout support,
-en tout format.
+If it is software, the present license is about the source code and the software documentation, {{ company.name }} authorizing the Customer to access the application code.
 
-S’il s’agit de logiciel, la présente licence porte sur le code objet, le code
-source et la documentation du logiciel, {{ company.name }} autorisant le Client à
-accéder aux codes du logiciel.
+Unless otherwise specified in the Particular conditions of contract, the Customer cannot sublicense specific source code development made by {{ company.name }}.
 
-À défaut de mention contraire dans les Conditions particulières, le Client ne
-pourra pas consentir de sous-licences sur les développements spécifiques.
+## Article 8. Evolution - Maintenance
 
-### 7.3. Rémunération au titre de la licence
-
-La rémunération de {{ company.name }} au titre de la licence des droits d’auteur sur
-les développements spécifiques est forfaitaire.
-
-{{ company.name }} ne pourra prétendre au titre de sa prestation et de la licence de
-droit d’auteur sur les développements spécifiques à d’autres rémunérations que
-celles stipulées dans les Conditions particulières.
-
-### 7.4. Droit de paternité
-
-À défaut de mention contraire dans les conditions particulières, le nom de
-{{ company.director }}, auteur originaire du Logiciel, devra être associé au Livrable au
-cours de son exploitation. S’il s’agit d’un site web, le nom de {{ company.director }}
-apparaîtra :
-
-sur une page appelé « Crédit », « Informations légales » ou « Mentions légales
-» accessible depuis la page d’accueil du site et comportant un lien hypertexte
-vers [{{ company.url_nice }}]({{ company.url }});
-
-dans le header du code html des pages web du site sous la balise « Creator ».
-
-### 7.5. Actions en justice
-
-À défaut de mention contraire dans les conditions particulières, seule
-{{ company.name }} aura qualité pour exercer les actions en contrefaçon et
-concurrence déloyale relatives aux exploitations non autorisées des
-développements spécifiques.
-
-Toutefois, lorsque {{ company.name }} aura autorisé le Client à consentir des
-sous-licences sur les développements spécifiques, seul le Client aura qualité
-pour exercer les actions en contrefaçon et concurrence déloyale relatives aux
-exploitations non autorisées des développements spécifiques.
-
-
-## Article 8. Évolution - Maintenance
-
-{{ company.name }} autorise le Client à effectuer lui-même des Évolutions du
-Livrable et à en assurer la maintenance.
-
-Toutefois, si le Client souhaite confier les Évolutions ou la maintenance du
-Livrable à un prestataire, le Client s’engage à proposer en priorité la prise
-en charge de cette prestation à {{ company.name }}, qui s’engage en contrepartie à
-proposer au Client des conditions tarifaires similaires à celles consenties
-aux termes du présent contrat.
+{{ company.name }} authorizes the Customer to develop Evolutions, modifications and iterations of the Deliverable and to manage its maintenance.
 
 ## Article 9. Term
 
@@ -263,19 +188,7 @@ For both parties, in case of a breach of obligations described in this Document 
 
 ## Article 14. Confidentiality
 
-Le Client considère comme confidentielles toutes les informations dont il sera
-amené à avoir connaissance dans le cadre de ses relations avec {{ company.name }}.
-Le Client s’engage à mettre en œuvre les moyens appropriés pour garder le
-secret le plus absolu sur ces informations. {{ company.name }} s’engage à faire
-respecter cette obligation par tous ses mandataires sociaux, personnels,
-sous-traitants et tiers contractants.
-
-La présente obligation de confidentialité prend effet à compter de la date de
-l’acceptation des présentes Conditions générales par le Client. Elle est
-valable pour une durée de 10 ans.
-
-Les présentes stipulations constituent les Conditions particulières du contrat
-de développement conclu entre les Parties.
+Both parties consider all information shared during the relationship established by the contract as strictly confidential. They will take appropriate measures to protect it. This confidentiality clause will start when the Customer accepts the present Document, and will last for ten years.
 
 ## Article 15. Applicable law and relevant jurisdiction
 
