@@ -1,2 +1,5 @@
 # Particular conditions of contract
-{{ contract.pcc }}
+{{ pcc.specifications }}
+{{ pcc.price }}
+{{ pcc.schedule }}
+{{ pcc.additional }}
