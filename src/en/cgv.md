@@ -26,138 +26,71 @@ elements, the best-ranked document in the set priority ranking will prevail.
 
 ## Article 2. Definitions
 
-Livrable : Version fonctionnelle d’un site web, logiciel, éléments graphiques,
-éditoriaux ou autres, livrés par {{ company.name }} au Client à l’issue de chaque
-Itération.
+Deliverable : Working version of a website, software, mobile application, graphical elements, editorial elements,
+delivered by {{ company.name }} to the Customer at the set milestone or due date.
 
-Backlog : document contractuel par lequel {{ company.name }} reformule l’Icebox en
-termes de fonctionnalités techniques auxquelles un indice de difficulté est
-associé.
+Specifications : Functional specifications defined by the Customer, and agreed upon by both parties.
 
-Icebox : spécifications fonctionnelles définies par le Client, sous la forme
-de cas simples et factuels.
+Patch : Any error or bug correction on the Deliverable, with no other end than correcting dysfunctions or errors.
 
-Correction : Toute correction d’erreur sur le Livrable, n’ayant pas d’autre
-finalité que de corriger des dysfonctionnements ou des erreurs.
+Provided assets : Any content (code, texts, images, sounds) included in the Deliverable, either by {{ company.name }}
+at the Customer's request, or by the Customer himself.
 
-Élément apporté : contenu de toute nature (codes, textes, images, sons…)
-inséré dans le Livrable, soit par {{ company.name }} à la demande du Client, soit
-par le Client lui-même.
+Evolution : Any modification, evolution, adaptation, addition, removal, translation, new version of the Deliverable,
+not being a simple Patch.
 
-Évolution : Toute modification, évolution, adaptation, adjonction,
-suppression, traduction, nouvelle version, ne constituant pas une simple
-Correction.
+Document : Unless specified, this Terms and condition of sale document.
 
-Itération : Cycle de développement aux termes duquel une version fonctionnelle
-du Livrable est livrée par {{ company.name }} au Client.
+## Article 3. Purpose of the Contract
 
+By the present Contract and Terms and conditions of sale, {{ company.name }} commits to design and create for the Customer's account a Deliverable answering to the Specifications.
 
+## Article 4. Parties duties
 
-## Article 3. Objet du contrat
+### 4.1. Duties of {{ company.name }}
 
-Par le présent contrat, {{ company.name }} s’engage à concevoir et à réaliser pour
-le compte du Client un Livrable conformément à la
-[méthode Agile](http://agilemanifesto.org/iso/fr/).
+{{ company.name }} commits to design and create a functional Deliverable in the timeframe set between both parties.
+{{ company.name }} shall bring up technical solutions allowing to materialize the Deliverable functional specifications and to make sure its proper functioning.
 
+{{ company.name }} is therefore submitted to a best endeavours obligation. {{ company.name }} will be able to subcontract all or part of the service.
 
-## Article 4. Obligations des parties
+Except if it is clearly specified in the Particular conditions of contract, {{ company.name }} is not submitted to an obligation of maintenance of the Deliverable or assistance to use for the Deliverable and its users.
 
-### 4.1. Obligations de {{ company.name }}
+### 4.2. Duties of the Customer
 
-{{ company.name }} s’engage à concevoir et à réaliser un Livrable fonctionnel par
-Itérations successives. Il devra ainsi apporter les solutions techniques
-permettant de concrétiser l’architecture du Livrable et d’en assurer le bon
-fonctionnement.
+The Customer commits to provide to {{ company.name }} the Provided assets. It is specified than, excluding any mention in the Particular conditions of contract, the redaction of texts and administrable content is the Customer's responsibility.
 
-{{ company.name }} est soumis à une obligation de moyens. {{ company.name }} pourra
-sous-traiter tout ou partie de la prestation.
+The Customer commits to react or answer in a delay of 3 working days to sollicitations necessary to the good endeavour of the contract.
+The Customer acknowledges that his involvment and collaboration are necessary for the good endeavour of the contract.
+Any lateness or due diligence default can imply a delivery adjournment of the Deliverable by {{ company.name }} of the duration of the said lateness plus a working week. This adjournment cannot establish a malpractice of {{ company.name }} or a damage to the Customer.
 
-Sauf stipulation contraire dans les Conditions particulières, {{ company.name }}
-n’est soumis à aucune obligation de maintenance ou d’assistance à
-l’utilisation.
+## Article 5. Working practices
 
-### 4.2. Obligations du Client
+Both parties determine in the Particular conditions of contract one of the following working methodologies:
 
-Le Client s’engage à fournir à {{ company.name }} les Éléments apportés. Il est
-précisé à ce titre, sauf mention contraire dans les Conditions particulières,
-que la rédaction des textes et la saisie du contenu administrable est à la
-charge exclusive du Client.
+### 5.1 Iterative development (agile software development)
 
-Le Client s’engage à réagir dans un délai de 3 jours à partir de la mise en
-demeure au plus tard à toute demande de {{ company.name }} relative à la réalisation
-du Livrable. Le Client reconnaît que son implication et sa collaboration sont
-nécessaires pour la bonne exécution du contrat. Tout retard ou défaut de
-diligence du Client pourra entraîner un report de livraison de {{ company.name }}
-supérieur d’une semaine à la durée dudit retard ou défaut de diligence, sans
-que ce report ne puisse constituer une faute de {{ company.name }} ou un préjudice
-pour le Client.
+As part of this working methodology, {{ company.name }} commits to design and realize a Deliverable
+according to the Agile software development methodology. Therefore the Deliverable development requires several software iterations. Further description of this methodology, should it be elected, is set in the Particular conditions of contract.
 
-## Article 5. Méthodes de travail
+### 5.2 Planned development
 
-Les parties déterminent dans les Conditions particulières l’une des méthodes
-de travail suivantes :
+As part of this working methodology, {{ company.name }} commits to design and realize a Deliverable according to the classical software development practice - "Waterfall". This methodology follows two steps described below.
 
-### 5.1 Développements itératifs
+#### 5.2.1 Step 1 – Deliverable design
 
-Dans le cadre de cette méthode de travail, {{ company.name }} s’engage à concevoir
-un Livrable conformément à la méthode Agile. Le développement du Livrable fait
-en conséquence l’objet de plusieurs Itérations.
+The Customer provides information, data, and an optional bill of specifications necessary to the realization of the
+Deliverable. {{ company.name }} will therefore establish the architecture of the Deliverable with these elements accounted for. Both parties can collaborate to modify specifications, but this time spent cannot be accounted for in
+the realization milestones.
 
-Chaque Itération est soumise au plan de travail suivant :
+#### 5.2.2 Step 2 – Deliverable realization
 
-Les parties conviennent de la durée de l’Itération (généralement entre 5 et 10
-jours ouvrés).
+When the Customer validates the architecture, {{ company.name }} will realize and develop the Deliverable.
+When the development and Quality Assurance phase ends, the Deliverable is delivered to the Customer in compliance with article 6 of this Document.
 
-Le Client définit les spécifications fonctionnelles du projet dans un document
-appelé Icebox.
+### 5.3 Ad hoc methodology
 
-{{ company.name }} exprime ces spécifications fonctionnelles en terme de
-fonctionnalités techniques auxquelles est associé un indice de difficulté, dans
-un document appelé Backlog.
-
-Le Client détermine les priorités parmi les fonctionnalités techniques
-définies par {{ company.name }}.
-
-Le cycle de développement peut commencer lorsque les parties considèrent que
-la charge de travail est suffisante pour l’Itération.
-
-Lors d’un bref entretien quotidien (environ 10 minutes), les parties font le
-point sur l’état d’avancement et les problèmes rencontrés.
-
-Aux termes de l’Itération, le Livrable est livré au Client et réceptionné
-conformément à l’article 7 des présentes.
-
-À l’issue de l’Itération, un bilan est effectué entre les parties, afin de
-savoir si une nouvelle Itération est nécessaire pour la mise en production du
-Livrable.
-
-
-### 5.2 Développement planifié
-
-Dans ce cadre, {{ company.name }} s’engage à concevoir un Livrable selon la méthode
-classique de développement, dite Waterfall. Le développement complet du
-Livrable se déroulera alors en deux étapes.
-
-#### 6.1. Étape 1 – Conception du Livrable
-
-Suite à la remise par le Client des informations nécessaires à la réalisation
-du Livrable, {{ company.name }} établira l’architecture du Livrable, en tenant
-compte, le cas échéant, du cahier des charges fourni par le Client.
-
-#### 6.2 Étape 2 – Réalisation du Livrable
-
-Suite à la validation de l’architecture par le Client, {{ company.name }} procédera
-à la réalisation du Livrable. Au terme de la phase de développement, le
-Livrable est livré au Client et réceptionné conformément à l’article 7 des
-présentes.
-
-
-### 5.3 Méthode ad hoc
-
-Les parties pourront convenir d’une méthode de travail ad hoc. Dans ce cas, la
-méthode de travail envisagée fera l’objet d’une description dans les
-Conditions particulières.
-
+Both parties can agree of another work methodology - "ad hoc". In this case, it will be described in the Particular conditions of contract.
 
 ## Article 6. Procédure de réception
 
@@ -172,18 +105,14 @@ Si le Client n’a émis aucune réserve dans le délai précité, le Livrable s
 au Client est considéré comme étant tacitement réceptionnée par celui-ci.
 
 
-## Article 7. Responsabilité
+## Article 7. Responsibility
 
-### 7.1. Limitation de responsabilité
+### 7.1. Limitation of responsibility
 
-{{ company.name }} n’est pas responsable des dommages que l’installation du Livrable
-pourrait causer aux serveurs et matériels informatiques du Client.
+{{ company.name }} is not liable for any damages that could be inflicted by the installation of the Deliverable to the servers and computer hardware of the Customer.
 
-Dans l’hypothèse où le Client réaliserait lui-même une Évolution ou en
-confierait la réalisation à un tiers, {{ company.name }} ne sera plus en mesure de
-prendre en charge les Corrections du Livrable. {{ company.name }} exclut par
-ailleurs toute responsabilité au titre des Évolutions apportées par le Client
-ou un tiers au Livrable.
+Assuming that the Customer would realize himself an Evolution or would assign an Evolution to a third-party,
+{{ company.name }} will no longer be accountable for Patches of the Deliverable. {{ company.name }} excludes for that matter any responsibility regarding Evolutions brought up by the Customer or a third-party to the Deliverable.
 
 La réception du Livrable par le Client couvre les défauts de conformité
 apparents et les vices apparents. Toute action à l’encontre de {{ company.name }},
@@ -413,12 +342,10 @@ saurait être interprété pour l’avenir comme une renonciation à l’obligat
 cause.
 
 
-## Article 16. Loi applicable et juridiction compétente
+## Article 16. Applicable law and relevant jurisdiction
 
-Le présent contrat est soumis à la loi française.
+The present contract is submitted to the French law.
 
-En cas de litige, la compétence exclusive est attribuée aux tribunaux de
-Paris, même pour les procédures d’urgence ou conservatoire en référé ou par
-requête, nonobstant pluralité de défendeurs ou appel en garantie.
+If it must comply with another country's law, it must be agreed upon in the Particular conditions of contract.
 
-
+In case of a legal dispute, the exclusive authority is attributed to the Paris Court, even for summary judgement and summonings to urgent proceedings, notwithstanding plurality of defendants or claims under warranty.
