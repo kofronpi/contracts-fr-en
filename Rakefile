@@ -5,13 +5,13 @@ require 'json'
 task default: [:handlebars, :pdf] do
 end
 
-task :handlebars do
+task :handlebars do |t, args|
   handlebars = Handlebars::Context.new
   ['cp', 'cgv'].each do |file|
     File.write(
       "tmp/#{file}.md",
       handlebars.compile(
-        File.read("src/#{file}.md")
+        File.read("src/#{ENV['PDF_LANGUAGE']}/#{file}.md")
       ).call(
         JSON.parse(
           File.read('config.json').force_encoding('UTF-8')
