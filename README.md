@@ -24,13 +24,20 @@ Work in progress.
 
 **Pour générer un contrat**, vous devez d'abord:
 
-**To generate a contract**, you must:
-
 * installer les dépendances ruby/bundler: `bundle`
 * définir vos informations personnelles dans `config.json` (`config.sample.json` est dispo en exemple).
+* définir la langue souhaitée pour générer les pdf dans `.env`. Attention, seule la traduction en anglais est fournie. PR acceptées !
 
-une fois ceci fait, vous pouvez générer les contrats en faisant `rake`
+une fois ceci fait, vous pouvez générer les contrats en faisant `bundle exec foreman run rake`
+
+**To generate a contract**, you must:
+
+* install dependencies: `bundle`
+* configure personal information in `config.json` (`config.sample.json` is an example).
+* Define language export in `.env`. (see `.env.example`) Beware, only FR & EN languages are available. Pull requests welcome !
+
+You can now generate PDF contracts with `bundle exec foreman run rake`
 
 ## License
 
-License MIT
+MIT
