@@ -23,6 +23,7 @@ Work in progress.
 ## Usage
 
 **Pour générer un contrat**, vous devez d'abord:
+
 **To generate a contract**, you must:
 
 * installer les dépendances ruby/bundler: `bundle`

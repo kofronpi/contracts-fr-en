@@ -120,71 +120,35 @@ notamment au titre d’un défaut de conformité caché ou d’un vice caché, e
 prescrite dans le délai d’un an à compter de la réception définitive du
 Livrable par le Client.
 
-{{ company.name }} exclut toute responsabilité au titre de la réservation ou de
-l’utilisation d’un signe distinctif (nom de domaine, marque, titre, nom
-commercial, dénomination sociale…) à laquelle le Client lui aurait demandé de
-procéder.
+{{ company.name }} excludes all responsibility concerning the use or purchase of a distinctive sign (domain name, brand, title, commercial name, social denomination...) requested by the Customer.
 
-La responsabilité de {{ company.name }} est limitée au préjudice direct, personnel
-et certain subi par le Client et lié à la défaillance en cause. {{ company.name }}
-ne pourra en aucun cas être tenue responsable des dommages indirects tels que,
-notamment, les pertes de données, les préjudices commerciaux, les pertes de
-commandes, les atteintes à l’image de marque, les troubles commerciaux et les
-pertes de bénéfices ou de clients. Le montant des dommages et intérêts mis à
-la charge de {{ company.name }} ne pourra excéder le montant du prix total du
-Livrable, tel qu’indiqué dans les Conditions particulières.
+The liability of {{ company.name }} is limited to the direct damage, personal and certain suffered by the Customer and related to
+the involved fault.
+In no case can {{ company.name }} be liable for indirect damages such as, but not only, data loss, commercial damage, reputation harm,
+orders and bookings loss, loss of revenue and loss of customers.
 
-Aux termes de chaque Itération, {{ company.name }} conserve son entière liberté de
-poursuivre ou de ne pas poursuivre le projet avec le Client. {{ company.name }}
-pourra en conséquence arrêter les développements après chaque livraison d’une
-Itération, sans que cela ne constitue une faute de {{ company.name }} ou un
-préjudice pour le Client.
+The amount of the compensation at the expense of {{ company.name }} cannot exceed the total price of the Deliverable without tax.
 
+### 7.2. Force majeure and Customer responsibility
 
-### 7.2. Force majeure et faute du client
+{{ company.name }} will not engage its responsibility in case of force majeure or Customer responsibility, thereafter described:
 
-{{ company.name }} n’engagera pas sa responsabilité en cas de force majeure ou de
-faute du Client, telles que définies ci-après :
+Will be considered a case of force majeure opposable to the Customer any impediment, limitation, disruption or disturbance owing to
+a fire event, explosion, epidemic, pandemic, earthquake, natural disaster, industrial or nuclear disaster, fluctuation of internet providers bandpass or service, collapses of buildings, illicit or fraudulent use of passwords, codes or references provided to the Customer, illegal hacking into the hosting service provider of the Deliverable or third-party necessary to its development, flooding, electricty outage, war, embargo, law, injonction of law or demand of any government, requisition, strike, boycott, police search, or other circonstances out of reasonable control of {{ company.name }}.
 
-Sera considéré comme un cas de force majeure opposable au Client tout
-empêchement, limitation ou dérangement du fait d’incendie, d’épidémie,
-d’explosion, de tremblement de terre, de fluctuations de la bande passante, de
-manquement imputable au fournisseur d’accès, de défaillance des réseaux de
-transmission, d’effondrement des installations, d’utilisation illicite ou
-frauduleuse des mots de passe, codes ou références fournis au Client, de
-piratage informatique, d’une faille de sécurité imputable à l’hébergeur du
-Site, d’inondation, de panne d’électricité, de guerre, d’embargo, de loi,
-d’injonction, de demande ou d’exigence de tout gouvernement, de réquisition,
-de grève, de boycott, ou autres circonstances hors du contrôle raisonnable de
-{{ company.name }}.
+Will be considered a Customer fault opposable to the latter any wrong use of the Deliverable, fault, negligence, omission or failure of his part, or non-respect of advice and directions provided by {{ company.name }}.
 
-Sera considérée comme une faute du Client opposable à ce dernier toute
-mauvaise utilisation du Livrable, faute, négligence, omission ou défaillance
-de sa part ou de celle de ses préposés, non-respect des conseils donnés par
-{{ company.name }}.
+## Article 8. Guarantees
 
+### 8.1. Warranty of {{ company.name }}
 
-## Article 8. Garanties
+{{ company.name }} guarantees to the Customer that the Deliverable will be bought and delivered in compliance with the contractual documents.
 
-### 8.1. Garanties de {{ company.name }}
+### 8.2. Warranty of the Customer
 
-{{ company.name }} garantit au Client que le Livrable sera achevé et livré
-conformément aux documents contractuels.
+The Customer claims to hold all rights and authorizations allowing the use of the Provided assets. He guarantees {{ company.name }} against all action or demand of a third-party regarding the Provided assets.
 
-À défaut de mention contraire dans les Conditions particulières concernant la
-licence de droit de propriété intellectuelle, {{ company.name }} ne donne pas
-d’autre garantie que celle de l’éviction de son fait personnel et de
-l’existence matérielle des droits cédés.
-
-### 8.2. Garanties du Client
-
-Le Client déclare être titulaire de tous les droits et autorisations
-permettant l’utilisation des Éléments apportés aux fins des présentes. Il
-garantit {{ company.name }} contre toute action et revendication de tiers du fait
-des Éléments apportés.
-
-
-## Article 9. Propriété intellectuelle
+## Article 9. Intellectual property
 
 ### 9.1. Titularité des droits sur le Livrable
 Le Livrable est composé le cas échéant :
@@ -270,65 +234,40 @@ proposer au Client des conditions tarifaires similaires à celles consenties
 aux termes du présent contrat.
 
 
-## Article 11. Prix et modalités de paiement
+## Article 11. Price and payment mode
 
-### 11.1. Prix
+### 11.1. Price
 
-Le taux horaire ou journalier est celui convenu dans les Conditions
-particulières.
+The price is per-project. All prices are agreed upon in the Particular conditions of contract.
+{{ company.name }} and the Customer can, however, agree upon a daily rate instead in the Particular conditions of contract.
 
-À défaut de stipulation contraire dans les Conditions particulières, le
-paiement interviendra avant le commencement de chacune des Itérations
+### 11.2. Per-project payment terms and conditions
 
-### 11.2. Rabais – Remise - Ristourne
+When the contract is signed, a 35 % downpayment will be paid by the Customer within 10 days to {{ company.name }}. Unless agreed upon in the Particular conditions of contract, the Deliverable design, development & realization will start when the downpayment is received.
 
-Sauf accord exprès des Parties, aucun rabais, remise, ristourne ou escompte ne
-sera accordé au Client.
+30 % of the payment will then be paid to {{ company.name }} within 15 days of the middle-project milestone, set in the Particular conditions of contract.
 
-### 11.3. Intérêts en cas de retard
+The remaining 35 % of the payment will be paid to {{ company.name }} within 15 days of the Deliverable delivery to the Customer.
 
-En cas de non-paiement à son échéance, toute somme due portera automatiquement
-intérêt conformément aux dispositions légales en vigueur.
+### 11.3. Late payment
 
-### 11.4. Rémunération supplémentaire
+As stated in French law, late payment penalties shall apply (0.12 % of total bill per day late plus a 40 euros flat-rate compensation).
 
-En cas de demandes de la part du Client entraînant une charge de travail
-supplémentaire pour {{ company.name }}, les parties conviendront, avant toute
-modification du Plan de travail ou du Cahier des charges, du versement d’une
-somme supplémentaire au profit de {{ company.name }}.
+### 11.4. Additional pay
 
+In the event of further demands or Evolution of the Deliverable leading to additional work for {{ company.name }}, both parties will agree upon an additional payment to {{ company.name }} before any modification of the work schedule or functional specifications.
 
-## Article 12. Références
+## Article 12. References & promotion
 
-Sauf interdiction expresse du Client dans un délai d’un mois à compter de la
-réception du Livrable, {{ company.name }} est autorisé à utiliser le nom du Client,
-ainsi que l’image de la page d’accueil du Livrable, dans le cadre de sa
-promotion commerciale et publicitaire.
+Except if prohibited by the Customer within a month from the Deliverable delivery date, {{ company.name }} is authorize to use the Customer's name, and the Deliverable home page picture as part of its commercial promotion.
 
+## Article 13. Ownership
 
-## Article 13. Réserve de propriété
+{{ company.name }} owns the Deliverable until the full payment of its principal price and interests. Upon full payment, the Customer will receive full ownership.
 
-{{ company.name }} se réserve expressément la propriété du Livrable jusqu’au
-paiement intégral de son prix en principal et intérêts. Le Client en deviendra
-toutefois responsable dès sa livraison, le transfert de possession entraînant
-celui des risques.
+## Article 14. Cancellation of contract
 
-
-## Article 14. Non-sollicitation
-
-Afin de garantir l’équilibre économique du Contrat, le Client s’engage à ne
-pas embaucher, tenter d’embaucher ou faire travailler directement ou
-indirectement un salarié, un collaborateur ou un sous-traitant de {{ company.name }}
-durant l’exécution du présent contrat et jusqu’à 5 ans après la réception du
-Livrable.
-
-En cas de non-respect de cette clause, le Client devra verser à {{ company.name }} à
-titre de clause pénale, et sans préjudice des éventuels dommages-intérêts
-auxquels pourrait prétendre {{ company.name }}, une somme égale à la rémunération de
-{{ company.name }} stipulée dans les Conditions particulières.
-
-
-## Article 15. Résiliation
+For both parties, in case of a breach of obligations described in this Document and if not repaired within 15 days (starting upon reception of registered letter with recorded delivery notifying said breach), the present contract will be rightfully terminated.
 
 En cas de manquement grave de l’une ou l’autre des parties aux obligations du
 présent contrat non réparé dans un délai de 15 jours à compter de la
@@ -341,8 +280,7 @@ l’autre partie à l’une quelconque des obligations visées dans les présent
 saurait être interprété pour l’avenir comme une renonciation à l’obligation en
 cause.
 
-
-## Article 16. Applicable law and relevant jurisdiction
+## Article 15. Applicable law and relevant jurisdiction
 
 The present contract is submitted to the French law.
 
