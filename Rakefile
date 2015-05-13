@@ -25,6 +25,6 @@ task :pdf do
   `mkdir contracts`
   ['cp', 'cgv', 'pcc'].each do |file|
     `rm contracts/#{file}.pdf`
-    `gimli -f tmp/#{file}.md -o contracts`
+    `gimli -stylesheet style.css -f tmp/#{file}.md -o contracts`
   end
 end
