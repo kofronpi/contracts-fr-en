@@ -4,11 +4,11 @@ BY
 
 {{ company.name }}, {{ company.description }},
 
-Hereinafter named the « Developer » or {{ company.name }} ,
+Hereinafter named the « Developer »,
 
 AND BETWEEN :
 
-Every professionnal company, society, person, or private individual, contracting with {{ company.name }}
+Every professionnal company, society, person, or private individual, contracting with the Developer
 for the development of a Deliverable according to the Web application development contract herein attached,
 
 Hereinafter named  the « Customer »,
@@ -16,13 +16,13 @@ Hereinafter named  the « Customer »,
 ## Article 1. Definitions
 
 __Deliverable__ : Working version of a website, software, mobile application, graphical elements, editorial elements,
-delivered by {{ company.name }} to the Customer at the set milestone or due date.
+delivered by the Developer to the Customer at the set milestone or due date.
 
 __Specifications__ : Functional specifications defined by the Customer, and agreed upon by both parties.
 
 __Patch__ : Any error or bug correction on the Deliverable, with no other end than correcting dysfunctions or errors.
 
-__Provided assets__ : Any content (code, texts, images, sounds) included in the Deliverable, either by {{ company.name }}
+__Provided assets__ : Any content (code, texts, images, sounds) included in the Deliverable, either by the Developer
 at the Customer's request, or by the Customer himself.
 
 __Evolution__ : Any modification, evolution, adaptation, addition, removal, translation, new version of the Deliverable,
@@ -32,22 +32,23 @@ __Document__ : Unless specified, this Terms and condition of sale document.
 
 ## Article 2. Parties duties
 
-### 2.1. Duties of {{ company.name }}
+### 2.1. Duties of the Developer
 
-{{ company.name }} commits to design and create a functional Deliverable in the timeframe set between both parties.
-{{ company.name }} shall bring up technical solutions allowing to materialize the Deliverable according to its functional specifications and to make sure it is properly functioning.
+The Developer commits to design and create a functional Deliverable in the timeframe set between both parties.
+the Developer shall bring up technical solutions allowing to materialize the Deliverable according to its functional specifications and to make sure it is properly functioning.
 
-{{ company.name }} is therefore submitted to a best endeavours obligation. {{ company.name }} will be able to subcontract all or part of the service.
+The Developer is therefore submitted to a best endeavours obligation. the Developer will be able to subcontract all or part of the service.
 
-Except if it is clearly specified in the Particular conditions of contract, {{ company.name }} is not submitted to an obligation of maintenance of the Deliverable or assistance to use for the Deliverable and its users.
+Except if it is clearly specified in the Particular conditions of contract, the Developer is not submitted to an obligation of maintenance of the Deliverable or assistance to use for the Deliverable and its users.
 
 ### 2.2. Duties of the Customer
 
-The Customer commits to provide to {{ company.name }} the Provided assets. It is specified than, excluding any mention in the Particular conditions of contract, the redaction of texts and administrable content is the Customer's responsibility.
+The Customer commits to provide to the Developer the Provided assets. It is specified than, excluding any mention in the Particular conditions of contract, the redaction of texts and administrable content is the Customer's responsibility.
 
 The Customer commits to react or answer in a delay of 3 working days to sollicitations necessary to the good endeavour of the contract.
 The Customer acknowledges that his involvment and collaboration are necessary for the good endeavour of the contract.
-Any lateness or due diligence default can imply a delivery adjournment of the Deliverable by {{ company.name }} of the duration of the said lateness plus a working week. This adjournment cannot establish a malpractice of {{ company.name }} or a damage to the Customer.
+
+Any lateness or due diligence default can imply a delivery adjournment of the Deliverable by the Developer of the duration of the said lateness plus a working week. This adjournment cannot establish a malpractice of the Developer or a damage to the Customer.
 
 ## Article 3. Working practices
 
@@ -55,22 +56,22 @@ Both parties determine in the Particular conditions of contract one of the follo
 
 ### 3.1 Iterative development (agile software development)
 
-As part of this working methodology, {{ company.name }} commits to design and realize a Deliverable
+As part of this working methodology, the Developer commits to design and realize a Deliverable
 according to the Agile software development methodology. Therefore the Deliverable development requires several software iterations. Further description of this methodology, should it be elected, is set in the Particular conditions of contract.
 
 ### 3.2 Planned development
 
-As part of this working methodology, {{ company.name }} commits to design and realize a Deliverable according to the classical software development practice - "Waterfall". This methodology follows two steps described below.
+As part of this working methodology, the Developer commits to design and realize a Deliverable according to the classical software development practice - "Waterfall". This methodology follows two steps described below.
 
 #### 3.2.1 Step 1 – Deliverable design
 
 The Customer provides information, data, and an optional bill of specifications necessary to the realization of the
-Deliverable. {{ company.name }} will therefore establish the architecture of the Deliverable with these elements accounted for. Both parties can collaborate to modify specifications, but this time spent cannot be accounted for in
+Deliverable. the Developer will therefore establish the architecture of the Deliverable with these elements accounted for. Both parties can collaborate to modify specifications, but this time spent cannot be accounted for in
 the realization milestones.
 
 #### 3.2.2 Step 2 – Deliverable development
 
-When the Customer validates the architecture, {{ company.name }} will realize and develop the Deliverable.
+When the Customer validates the architecture, the Developer will realize and develop the Deliverable.
 When the development and Quality Assurance phase ends, the Deliverable is delivered to the Customer in compliance with article 6 of this Document.
 
 ### 3.3 Ad hoc methodology
@@ -85,40 +86,40 @@ The delivery process depends of the work methodology and shall be described in t
 
 ### 5.1. Limitation of responsibility
 
-{{ company.name }} is not liable for any damages that could be inflicted by the installation of the Deliverable to the servers and computer hardware of the Customer.
+The Developer is not liable for any damages that could be inflicted by the installation of the Deliverable to the servers and computer hardware of the Customer.
 
 Assuming that the Customer would realize himself an Evolution or would assign an Evolution to a third-party,
-{{ company.name }} will no longer be accountable for Patches of the Deliverable. {{ company.name }} excludes for that matter any responsibility regarding Evolutions brought up by the Customer or a third-party to the Deliverable.
+the Developer will no longer be accountable for Patches of the Deliverable. the Developer excludes for that matter any responsibility regarding Evolutions brought up by the Customer or a third-party to the Deliverable.
 
-{{ company.name }} excludes all responsibility concerning the use or purchase of a distinctive sign (domain name, brand, title, commercial name, social denomination...) requested by the Customer.
+The Developer excludes all responsibility concerning the use or purchase of a distinctive sign (domain name, brand, title, commercial name, social denomination...) requested by the Customer.
 
-The liability of {{ company.name }} is limited to the direct damage, personal and certain suffered by the Customer and related to
+The liability of the Developer is limited to the direct damage, personal and certain suffered by the Customer and related to
 the involved fault.
-In no case can {{ company.name }} be liable for indirect damages such as, but not only, data loss, commercial damage, reputation harm,
+In no case can the Developer be liable for indirect damages such as, but not only, data loss, commercial damage, reputation harm,
 orders and bookings loss, loss of revenue and loss of customers.
 
-The amount of the compensation at the expense of {{ company.name }} cannot exceed the total price of the Deliverable.
+The amount of the compensation at the expense of the Developer cannot exceed the total price of the Deliverable.
 
-Any plea against {{ company.name }} about a hidden defect must be done within a year upon effective delivery.
+Any plea against the Developer about a hidden defect must be done within a year upon effective delivery.
 
 ### 5.2. Force majeure and Customer responsibility
 
-{{ company.name }} will not engage its responsibility in case of force majeure or Customer responsibility, thereafter described:
+the Developer will not engage its responsibility in case of force majeure or Customer responsibility, thereafter described:
 
 Will be considered a case of force majeure opposable to the Customer any impediment, limitation, disruption or disturbance owing to
-a fire event, explosion, epidemic, pandemic, earthquake, industrial or nuclear disaster, fluctuation of internet providers bandpass or service, collapses of buildings, illicit or fraudulent use of passwords, codes or references provided to the Customer, illegal hacking into the hosting service provider of the Deliverable or third-party necessary to its development, flooding, electricty outage, war, embargo, law, injonction of law or demand of any government, requisition, strike, boycott, police search, or other circonstances out of reasonable control of {{ company.name }}.
+a fire event, explosion, epidemic, pandemic, earthquake, industrial or nuclear disaster, fluctuation of internet providers bandpass or service, collapses of buildings, illicit or fraudulent use of passwords, codes or references provided to the Customer, illegal hacking into the hosting service provider of the Deliverable or third-party necessary to its development, flooding, electricty outage, war, embargo, law, injonction of law or demand of any government, requisition, strike, boycott, police search, or other circonstances out of reasonable control of the Developer.
 
-Will be considered a Customer fault opposable to the latter any wrong use of the Deliverable, fault, negligence, omission or failure of his part, or non-respect of advice and directions provided by {{ company.name }}.
+Will be considered a Customer fault opposable to the latter any wrong use of the Deliverable, fault, negligence, omission or failure of his part, or non-respect of advice and directions provided by the Developer.
 
 ## Article 6. Guarantees
 
-### 6.1. Warranty of {{ company.name }}
+### 6.1. Warranty of the Developer
 
-{{ company.name }} guarantees to the Customer that the Deliverable will be bought and delivered in compliance with the contractual documents.
+The Developer guarantees to the Customer that the Deliverable will be bought and delivered in compliance with the contractual documents.
 
 ### 6.2. Warranty of the Customer
 
-The Customer claims to hold all rights and authorizations allowing the use of the Provided assets. He guarantees {{ company.name }} against all action or demand of a third-party regarding the Provided assets.
+The Customer claims to hold all rights and authorizations allowing the use of the Provided assets. He guarantees the Developer against all action or demand of a third-party regarding the Provided assets.
 
 ## Article 7. Intellectual property
 
@@ -129,21 +130,21 @@ The Deliverable is made up of, if need be:
 * A framework: structural software component, defining the foundation of the Deliverable. The framework has a specific license. The Customer has rights on the framework according to this particular license.
 
 * Specific development: content realized specifically by
-  {{ company.name }} for the Customer. The Customer has a license on these specific development, as specified in section 7.2.
+  the Developer for the Customer. The Customer has a license on these specific development, as specified in section 7.2.
 
 * Provided assets : contents of all kind (code, texts, images, sounds) as defined in Article 1. The Customer keeps ownership of the provided assets.
 
 ### 7.2. Exclusive licence for the Deliverable
 
-Unless otherwise specified in the Particular conditions of contract, {{ company.name }} grants to the Customer an exclusive licence for the exploitation, reproduction, representation, modification, commercialization, translation of the Deliverable for all duration set by the applicable law, on any support and in any format.
+Unless otherwise specified in the Particular conditions of contract, the Developer grants to the Customer an exclusive licence for the exploitation, reproduction, representation, modification, commercialization, translation of the Deliverable for all duration set by the applicable law, on any support and in any format.
 
-If it is software, the present license is about the source code and the software documentation, {{ company.name }} authorizing the Customer to access the application code.
+If it is software, the present license is about the source code and the software documentation, the Developer authorizing the Customer to access the application code.
 
-Unless otherwise specified in the Particular conditions of contract, the Customer cannot sublicense specific source code development made by {{ company.name }}.
+Unless otherwise specified in the Particular conditions of contract, the Customer cannot sublicense specific source code development made by the Developer.
 
 ## Article 8. Evolution - Maintenance
 
-{{ company.name }} authorizes the Customer to develop Evolutions, modifications and iterations of the Deliverable and to manage its maintenance.
+The Developer authorizes the Customer to develop Evolutions, modifications and iterations of the Deliverable and to manage its maintenance.
 
 ## Article 9. Term
 
@@ -154,15 +155,15 @@ This Agreement shall become effective as of the Effective Date and, unless other
 ### 10.1. Price
 
 The price is per-project. All prices are agreed upon in the Particular conditions of contract.
-{{ company.name }} and the Customer can, however, agree upon a daily rate instead in the Particular conditions of contract.
+the Developer and the Customer can, however, agree upon a daily rate instead in the Particular conditions of contract.
 
 ### 10.2. Per-project payment terms and conditions
 
-When the contract is signed, a 35 % downpayment will be paid by the Customer within 10 days to {{ company.name }}. Unless agreed upon in the Particular conditions of contract, the Deliverable design, development & realization will start when the downpayment is received.
+When the contract is signed, a 35 % downpayment will be paid by the Customer within 10 days to the Developer. Unless agreed upon in the Particular conditions of contract, the Deliverable design, development & realization will start when the downpayment is received.
 
-30 % of the payment will then be paid to {{ company.name }} within 15 days of the middle-project milestone, set in the Particular conditions of contract.
+30 % of the payment will then be paid to the Developer within 15 days of the middle-project milestone, set in the Particular conditions of contract.
 
-The remaining 35 % of the payment will be paid to {{ company.name }} within 15 days of the Deliverable delivery to the Customer.
+The remaining 35 % of the payment will be paid to the Developer within 15 days of the Deliverable delivery to the Customer.
 
 ### 10.3. Late payment
 
@@ -170,15 +171,15 @@ As stated in French law, late payment penalties shall apply (0.12 % of total bil
 
 ### 10.4. Additional pay
 
-In the event of further demands or Evolution of the Deliverable leading to additional work for {{ company.name }}, both parties will agree upon an additional payment to {{ company.name }} before any modification of the work schedule or functional specifications.
+In the event of further demands or Evolution of the Deliverable leading to additional work for the Developer, both parties will agree upon an additional payment to the Developer before any modification of the work schedule or functional specifications.
 
 ## Article 11. References & promotion
 
-Except if prohibited by the Customer within a month from the Deliverable delivery date, {{ company.name }} is authorize to use the Customer's name, and the Deliverable home page picture as part of its commercial promotion.
+Except if prohibited by the Customer within a month from the Deliverable delivery date, the Developer is authorize to use the Customer's name, and the Deliverable home page picture as part of its commercial promotion.
 
 ## Article 12. Ownership
 
-{{ company.name }} owns the Deliverable until the full payment of its principal price and interests. Upon full payment, the Customer will receive full ownership.
+The Developer owns the Deliverable until the full payment of its principal price and interests. Upon full payment, the Customer will receive full ownership.
 
 ## Article 13. Cancellation of contract
 

@@ -1,9 +1,12 @@
 # Web application development contract
 
-{{ client.description }},
-is « the Customer » in this present contract and all Contractual documents.
+This Web application development contract (the “Contract”) is made on {{ cgv.startDate }} between:
 
-This Web application development contract (the “Contract”) is entered into as of {{ cgv.startDate }}, effective as of {{ cgv.effectiveDate }} (the “Effective Date”) by and between {{ company.name }}, (the “Developer”), and {{ client.name }}, the “Customer,” and together with the Developer, the “Parties”.
+(1) {{ client.description }},
+« the Customer » in this present contract and all Contractual documents.
+
+(2) {{ company.name }}, {{ company.description }},
+« the Developer » in this present contract and all Contractual documents.
 
 ## Contractual documents
 
@@ -13,9 +16,9 @@ Contractual documents, by top down priority are the following :
 * Particular conditions of contract
 * Terms and conditions of sale
 
-The Particular conditions of contract establish all rules specific to a given project (materialized by a Deliverable) between the Developer and the Customer.
+The Particular conditions of contract establish all specific rules to a given project (materialized by a Deliverable) between the Developer and the Customer.
 
-The Terms and conditions of sale establish all the rules of the relationship between the Developer and the Customer.
+The Terms and conditions of sale establish all general rules of the relationship between the Developer and the Customer.
 
 They establish the entirety of obligations of both parties. In the event of a contradiction between those different
 documents, the best-ranked document in the set priority ranking will prevail.
