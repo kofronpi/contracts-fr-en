@@ -66,13 +66,12 @@ As part of this working methodology, the Developer commits to design and realize
 #### 3.2.1 Step 1 – Deliverable design
 
 The Customer provides information, data, and an optional bill of specifications necessary to the realization of the
-Deliverable. the Developer will therefore establish the architecture of the Deliverable with these elements accounted for. Both parties can collaborate to modify specifications, but this time spent cannot be accounted for in
-the realization milestones.
+Deliverable. The Developer will therefore establish the architecture of the Deliverable with these elements accounted for. Both parties can collaborate to modify specifications, but this time spent cannot be accounted for in the realization milestones.
 
 #### 3.2.2 Step 2 – Deliverable development
 
 When the Customer validates the architecture, the Developer will realize and develop the Deliverable.
-When the development and Quality Assurance phase ends, the Deliverable is delivered to the Customer in compliance with article 6 of this Document.
+When the development and quality assurance phase ends, the Deliverable is delivered to the Customer in compliance with article 6 of this Document.
 
 ### 3.3 Ad hoc methodology
 
@@ -111,15 +110,25 @@ a fire event, explosion, epidemic, pandemic, earthquake, industrial or nuclear d
 
 Will be considered a Customer fault opposable to the latter any wrong use of the Deliverable, fault, negligence, omission or failure of his part, or non-respect of advice and directions provided by the Developer.
 
-## Article 6. Guarantees
+## Article 6. Guarantees & Deliverable Acceptance
 
 ### 6.1. Warranty of the Developer
 
-The Developer guarantees to the Customer that the Deliverable will be bought and delivered in compliance with the contractual documents.
+The Developer guarantees to the Customer that the Deliverable will be sold and delivered in compliance with the contractual documents.
 
 ### 6.2. Warranty of the Customer
 
 The Customer claims to hold all rights and authorizations allowing the use of the Provided assets. He guarantees the Developer against all action or demand of a third-party regarding the Provided assets.
+
+### 6.3. Deliverable acceptance
+
+Deliverable acceptance criteria are set as a formal statement of needs, rules, tests, requirements and standards that must be used to review the project outcome by the Customer to accept the Deliverable.
+They are specified in the Particular conditions of contract.
+Rejection of the Deliverable can be agreed upon only if there is a repeatable way to prove that a test, need or requirement is compromised by a failure such as a bug. Rejection of the Deliverable cannot be agreed upon if the failure is due to a framework or language bug which needs upgrading, or to the modification of code outside of the Deliverable code base (API interactions, database schema modifications, etc.).
+
+Due to the nature of software development, this must be done in reasonable delay : upon delivery, the Customer must arrange an approver in his team to accept the Deliverable within X days.
+
+After that, the project has produced the deliverables that meet the initial expectations of the customer and is considered accepted.
 
 ## Article 7. Intellectual property
 
