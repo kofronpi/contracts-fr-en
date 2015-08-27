@@ -46,7 +46,7 @@ Except if it is clearly specified in the Particular conditions of contract, the 
 The Customer commits to provide to the Developer the Provided assets. It is specified than, excluding any mention in the Particular conditions of contract, the redaction of texts and administrable content is the Customer's responsibility.
 
 The Customer commits to react or answer in a delay of 3 working days to sollicitations necessary to the good endeavour of the contract.
-The Customer acknowledges that his involvment and collaboration are necessary for the good endeavour of the contract.
+The Customer acknowledges that his involvment and collaboration are necessary for the good endeavour of the contract, as well as his team's involvment if necessary.
 
 Any lateness or due diligence default can imply a delivery adjournment of the Deliverable by the Developer of the duration of the said lateness plus a working week. This adjournment cannot establish a malpractice of the Developer or a damage to the Customer.
 
