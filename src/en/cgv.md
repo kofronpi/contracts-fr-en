@@ -35,9 +35,9 @@ __Document__ : Unless specified, this Terms and condition of sale document.
 ### 2.1. Duties of the Developer
 
 The Developer commits to design and create a functional Deliverable in the timeframe set between both parties.
-the Developer shall bring up technical solutions allowing to materialize the Deliverable according to its functional specifications and to make sure it is properly functioning.
+the Developer shall bring up technical solutions allowing to materialize the Deliverable according to its functional specifications and to make sure it is properly functioning against a suite of automated or manual tests.
 
-The Developer is therefore submitted to a best endeavours obligation. the Developer will be able to subcontract all or part of the service.
+The Developer is therefore submitted to a best endeavours obligation. The Developer will be able to subcontract all or part of the service.
 
 Except if it is clearly specified in the Particular conditions of contract, the Developer is not submitted to an obligation of maintenance of the Deliverable or assistance to use for the Deliverable and its users.
 
