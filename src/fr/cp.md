@@ -1,60 +1,69 @@
 # Contrat de développement d’application web
 
-{{ client.description }},
-est « le Client », cité dans les _Conditions générales de vente_ et ce présent contrat.
+Ce contrat de développement d'application web (le "Contrat") rédigé le {{ cgv.startDate }} entre:
 
-## Choix de la méthode de travail
+(1) {{ client.description }},
+« le Client » dans ce présent contrat et l'ensemble des documents contractuels.
 
-{{ company.name }} et le Client vont travailler sur des développements itératifs
-(méthode agile).
+(2) {{ company.name }}, {{ company.description }},
+« le Développeur » dans ce présent contrat et l'ensemble des documents contractuels.
 
-## Propriété intellectuelle
+## Documents Contractuels
 
-{{ company.name }} autorise le Client à consentir des sous-licences sur les
-développements spécifiques.
+Les documents contractuels par ordre de priorité sont les suivants :
 
-## Prix - Paiement
+* Le contrat de développement d'application web,
+* Les conditions particulières du contrat,
+* Les conditions générales de vente.
 
-Le taux horaire de {{ company.name }} s'élève à {{ company.hourly_rate }} {{ company.hourly_rate_legend }}. {{ company.name }} propose ses services pour {{ contract.duration }} {{ contract.duration_legend }} de prestation.
-Le client s’engage donc à payer {{ contract.payment_novat }} {{ contract.payment_novat_legend }} soit {{ contract.payment_vat }} {{ contract.payment_vat_legend }} avant l’intervention.
-Le paiement des prestations interviendra par virement sur le compte bancaire dont le RIB a été communiqué au Client.
+Les conditions particulières du contrat établissent toutes les règles qui s'appliquent à un projet donné (matérialisé par un Livrable) entre le Développeur et le Client.
 
-## Conditions spécifiques
+Les conditions générales de vente établissent toutes les règles générales sur la relation entre le Développeur et le Client.
 
-### Liberté du Client relative aux Evolutions ou la maintenance
+Elles établissent l'ensemble des obligations de chaque partie.
 
-Le Client conserve la liberté de confier les Evolutions ou la maintenance du
-Livrable au prestataire de son choix.
+Dans le cas où les documents se contrediraient, le document à la plus forte priorité prévaudrait.
 
-{{ cp.addons }}
+## Objectif du contrat
 
-## Confidentialité à la charge du Client
+Par le présent contrat, {{ company.name }} s'engage à concevoir et à développer un Livrable pour le compte du Client, qui réponde aux Spécifications.
 
-Le Client considère comme confidentielles toutes les informations dont il sera
-amené à avoir connaissance dans le cadre de ses relations avec {{ company.name }}.
-Le Client s’engage à mettre en œuvre les moyens appropriés pour garder le
-secret le plus absolu sur ces informations. {{ company.name }} s’engage à faire
-respecter cette obligation par tous ses mandataires sociaux, personnels,
-sous-traitants et tiers contractants.
+Le Client désigne et engage par le présent document le Développeur, et le Développeur accepte par le présent document cette affectation, pour réaliser l'ensemble des services décrits dans les conditions particulières du
 
-La présente obligation de confidentialité prend effet à compter de la date de
-l’acceptation des présentes Conditions générales par le Client. Elle est
-valable pour une durée de 10 ans.
+En cochant les cases suivantes, le Client reconnaît qu'il a lu et approuvé :
 
-Les présentes stipulations constituent les Conditions particulières du contrat
-de développement conclu entre les Parties.
+[        ] Les conditions particulières de contrat
 
-En cochant la case ci-contre, le Client reconnaît avoir lu et accepté les
+[        ] Les conditions générales de vente de {{ company.name }}
 
-_Conditions générales de vente_ de {{ company.name }}
+EN TÉMOIGNAGE DE QUOI, les Parties ont approuvé ce Contrat et ses Documents Contractuels, à la date de rédaction énoncée ci-dessus.
 
-Fait à ........................................ , le ..............................
-En autant d’exemplaires originaux que de parties.
-Faire précéder la signature de la mention « Lu et approuvé »
+Le Client
 
-**Signatures et cachets**
+{{ customer.name }}
+
+Par:
+
+Titre:
+
+
+Signature:
+
+
+<br/>
+<br/>
+<br/>
+Le Développeur
 
 {{ company.name }}
 
+Par :
 
-Le Client
+Titre :
+
+
+Signature :
+
+
+
+

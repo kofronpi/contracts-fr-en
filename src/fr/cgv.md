@@ -1,4 +1,4 @@
-# Conditions Générales de vente de {{ company.name }} Applicables à compter du {{ cgv.startDate }}
+# Conditions Générales de vente de {{ company.name }},applicables à compter du {{ cgv.startDate }}
 
 
 ENTRE LES SOUSSIGNÉS
@@ -6,18 +6,14 @@ ENTRE LES SOUSSIGNÉS
 {{ company.name }}, {{ company.description }},
 
 Ci-après dénommée « {{ company.name }} »,
-D’autre part,
 
 ET :
 
 Toute personne physique ou morale, particulier ou professionnel, de droit
 privé ou de droit public, contractant avec {{ company.name }} pour la réalisation
-d’un Livrable,
-
+d’un Livrable en accord avec les conditions attachés dans le présent contrat,
 
 Ci-après « le Client »,
-D’autre part,
-
 
 ## Article 1. Documents contractuels
 
