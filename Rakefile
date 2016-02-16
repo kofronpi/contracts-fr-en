@@ -36,6 +36,7 @@ task :pdf do
 end
 
 task :merge do
+  pdf_name = ENV['locale'] == 'fr' ? 'contrat' : 'contract'
   (CombinePDF.load("contracts/cp.pdf") << CombinePDF.load("contracts/cgv.pdf") << CombinePDF.load("contracts/pcc.pdf"))  \
-    .save("contracts/contract.pdf")
+    .save("contracts/#{pdf_name}.pdf")
 end

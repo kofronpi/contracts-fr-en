@@ -1,6 +1,5 @@
 {
-  "filename": "<%= moment().format('YYYY-MM-DD') %>-contrat-<%= client %>"
-, "company": {
+  "company": {
     "name": "_NomSociété_"
   , "description": "_Entreprise Unipersonnelle à Responsabilité Limitée au capital de 1500 €, enregistrée au RCS de Paris sous n° RCS, dont le siège social est sis ADDRESS, représentée aux fins des présentes par GÉRANT en qualité de gérant_"
   , "director": "_Gérant_"

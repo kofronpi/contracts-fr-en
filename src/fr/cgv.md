@@ -108,7 +108,15 @@ Aux termes de chaque jalon, le Développeur conserve son entière liberté de po
 pourra en conséquence arrêter les développements après chaque livraison d’une
 Itération, sans que cela ne constitue une faute du Développeur ou un préjudice pour le Client.
 
-### 5.2. Force majeure et faute du Client
+### 5.2 Logiciels libres
+
+Le Client est informé que le Livrable est susceptible d’intégrer des modules ou des bibliothèques dites « libres » ou « open source » dont les licences peuvent contenir des exclusions pures et simples de toutes garanties.
+
+Dans ce cas, le Client accepte que le Développeur ne puisse lui conférer plus de garantie qu’elle n’en tient elle-même des licences de ces modules ou bibliothèques. Le Développeur exclut par conséquent toute garantie relative aux modules ou bibliothèques dites « libres » ou « open source » dont les licences contiendraient une exclusion de garantie.
+
+Le Client pourra prendre connaissance de l’étendue des garanties associées aux modules ou bibliothèques dites « libres » ou « open source » en se reportant aux licences de celles-ci que le Développeur joindra systématiquement au code, lorsque ces licences l’imposent, lors de la livraison du Livrable concerné.
+
+### 5.3. Force majeure et faute du Client
 
 Le Développeur n’engagera pas sa responsabilité en cas de force majeure ou de faute du Client, telles que définies ci-après :
 
@@ -220,7 +228,7 @@ Ce contrat est effectif dès sa signature, et à moins d'être résilié en rais
 Tous les prix sont explicités dans les conditions particulières du contrat.
 Le Développeur et le Client peuvent se mettre d'accord sur un tarif journalier ou un prix par-projet.
 
-### 10.2. Conditions du paiement lors d'offre de prix par projet
+### 10.2. Conditions du paiement en cas de prix par projet
 
 À la signature du contrat, une avance de 35 % du prix total sera payée par le Client dans un délai de 10 jours ouvrables au Développeur. À moins que cela ne soit spécifié dans les conditions particulières du contrat, la conception et le développement du Livrable commencent lorsque l'avance a été reçue par le Développeur.
 
