@@ -6,3 +6,8 @@ clients
 contracts
 config.json
 tmp/*.md
+# Do not commit environment variable
+.env
+.bundle
+.ruby-version
+.ruby-gemset
