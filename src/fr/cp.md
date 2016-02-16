@@ -1,6 +1,6 @@
 # Contrat de développement d’application web
 
-Ce contrat de développement d'application web (le "Contrat") rédigé le {{ cgv.startDate }} entre:
+Ce contrat de développement d'application web (le "Contrat") est rédigé le {{ cgv.startDate }} entre:
 
 (1) {{ client.description }},
 « le Client » dans ce présent contrat et l'ensemble des documents contractuels.
@@ -22,13 +22,13 @@ Les conditions générales de vente établissent toutes les règles générales 
 
 Elles établissent l'ensemble des obligations de chaque partie.
 
-Dans le cas où les documents se contrediraient, le document à la plus forte priorité prévaudrait.
+Dans le cas où les documents se contrediraient, le document qui a la plus forte priorité fait autorité.
 
 ## Objectif du contrat
 
 Par le présent contrat, {{ company.name }} s'engage à concevoir et à développer un Livrable pour le compte du Client, qui réponde aux Spécifications.
 
-Le Client désigne et engage par le présent document le Développeur, et le Développeur accepte par le présent document cette affectation, pour réaliser l'ensemble des services décrits dans les conditions particulières du
+Le Client désigne et engage par le présent document le Développeur, et le Développeur accepte par le présent document cette affectation, pour réaliser l'ensemble des services décrits dans les conditions particulières du contrat.
 
 En cochant les cases suivantes, le Client reconnaît qu'il a lu et approuvé :
 

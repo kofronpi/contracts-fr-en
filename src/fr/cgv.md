@@ -1,269 +1,150 @@
-# Conditions Générales de vente de {{ company.name }},applicables à compter du {{ cgv.startDate }}
+# Conditions Générales de vente de {{ company.name }}, applicables à compter du {{ cgv.startDate }}
 
 
 ENTRE LES SOUSSIGNÉS
 
 {{ company.name }}, {{ company.description }},
 
-Ci-après dénommée « {{ company.name }} »,
+Ci-après « le Développeur »,
 
 ET :
 
 Toute personne physique ou morale, particulier ou professionnel, de droit
-privé ou de droit public, contractant avec {{ company.name }} pour la réalisation
+privé ou de droit public, contractant avec le Développeur pour la réalisation
 d’un Livrable en accord avec les conditions attachés dans le présent contrat,
 
 Ci-après « le Client »,
 
-## Article 1. Documents contractuels
 
-Les documents contractuels, par ordre de priorité décroissant, sont les
-suivants :
+## Article 1. Définitions
 
-* Conditions particulières
-* Backlogs
-* Icebox
-* Conditions générales de vente
+__Services__: Travail du Développeur pour concevoir et développer un Livrable pour le Client.
 
-Ils constituent l’intégralité des obligations des parties. En cas de
-contradiction entre les différents éléments, le document le mieux classé dans
-l’ordre de priorité prévaudra.
+__Livrable__ : Versions fonctionnelles d'un site web, logiciel, application mobile, serveur, éléments grahiques ou maquettes, éléments éditoriaux livrés par le Développeur au Client à la date prévue (jalon ou date finale de livraison).
 
+__Spécifications__ : Spécifications fonctionnelles (cahier des charges) définies par le Client, avec le concours du Développeur ou non, et acceptées par les deux parties.
 
-## Article 2. Définitions
+__Patch__ : Toute correction de bug ou erreur sur le Livrable, sans autre but que de corriger les dits dysfonctionnements ou erreurs.
 
-Livrable : Version fonctionnelle d’un site web, logiciel, éléments graphiques,
-éditoriaux ou autres, livrés par {{ company.name }} au Client à l’issue de chaque
-Itération.
+__Ressources apportées__ : Tout contenu (code, textes, images, sons) inclus dans le Livrable, soit par le Développeur à la requête du Client, soit par le Client lui-même.
 
-Backlog : document contractuel par lequel {{ company.name }} reformule l’Icebox en
-termes de fonctionnalités techniques auxquelles un indice de difficulté est
-associé.
+__Évolution__ : Toute modification, évolution, nouvelle fonctionnalité, adaptation, addition, suppression, traduction, nouvelle version du Livrable, qui n'est pas un simple Patch.
 
-Icebox : spécifications fonctionnelles définies par le Client, sous la forme
-de cas simples et factuels.
+__Itération__ : Cycle de développement aux termes duquel une version fonctionnelle du Livrable est livrée par {{ company.name }} au Client.
 
-Correction : Toute correction d’erreur sur le Livrable, n’ayant pas d’autre
-finalité que de corriger des dysfonctionnements ou des erreurs.
+__Document__ : A moins que cela ne soit explicité, ce document de Conditions générales de ventes.
 
-Élément apporté : contenu de toute nature (codes, textes, images, sons…)
-inséré dans le Livrable, soit par {{ company.name }} à la demande du Client, soit
-par le Client lui-même.
+## Article 2. Responsabilités des parties
 
-Évolution : Toute modification, évolution, adaptation, adjonction,
-suppression, traduction, nouvelle version, ne constituant pas une simple
-Correction.
+### 2.1. Responsabilités du Développeur
 
-Itération : Cycle de développement aux termes duquel une version fonctionnelle
-du Livrable est livrée par {{ company.name }} au Client.
+Le Développeur s'engage à concevoir et développer un Livrable fonctionnel dans le laps de temps prévu entre les deux parties, avec les limites prévues dans ce Document.
 
+Le Développeur devra amener des solutions techniques permettant de matérialiser le Livrable en accord avec ses Spécifications fonctionnelles, et devra assurer son bon fonctionnement.
 
+Le Développeur est ainsi soumis à une obligation de moyens.
+Le Développeur pourra sous-contracter tout ou une partie du service du Livrable, sauf mention contraire dans les Conditions particulières du contrat.
 
-## Article 3. Objet du contrat
+Sauf si clairement spécifié dans les Conditions particulières du contrat, le Développeur n'est pas soumis à l'obligation de maintenance du Livrable ou à l'assistance à l'utilisation du Livrable par ses utilisateurs.
 
-Par le présent contrat, {{ company.name }} s’engage à concevoir et à réaliser pour
-le compte du Client un Livrable conformément à la
-[méthode Agile](http://agilemanifesto.org/iso/fr/).
+### 2.2. Responsabilités du Client
 
+Le Client s'engage à fournir au Développeur les Ressources apportées. Il est précisé à ce titre, sauf mention contraire dans les Conditions particulières du contrat, que la rédaction des textes et la saisie du contenu administrable est à la charge exclusive du Client.
 
-## Article 4. Obligations des parties
+Le Client s’engage à réagir dans un délai de 3 jours à partir de la mise en demeure au plus tard à toute demande du Développeur relative à la réalisation du Livrable. Tout retard ou défaut de diligence du Client pourra entraîner un report de livraison du Livrable supérieur d’une semaine à la durée dudit retard ou défaut de diligence, sans que ce report ne puisse constituer une faute du Développeur ou un préjudice pour le Client.
 
-### 4.1. Obligations de {{ company.name }}
+Le Client reconnaît que son implication et sa collaboration sont nécessaires pour le bon déroulement du contrat, ainsi que la participation de son équipe si nécessaire.
 
-{{ company.name }} s’engage à concevoir et à réaliser un Livrable fonctionnel par
-Itérations successives. Il devra ainsi apporter les solutions techniques
-permettant de concrétiser l’architecture du Livrable et d’en assurer le bon
-fonctionnement.
+## Article 3. Méthodologies de travail
 
-{{ company.name }} est soumis à une obligation de moyens. {{ company.name }} pourra
-sous-traiter tout ou partie de la prestation.
+Les deux parties déterminent dans les Conditions particulières de contrat l'une des méthodologies de travail suivantes :
 
-Sauf stipulation contraire dans les Conditions particulières, {{ company.name }}
-n’est soumis à aucune obligation de maintenance ou d’assistance à
-l’utilisation.
+### 3.1 Développement itératif (développement agile)
 
-### 4.2. Obligations du Client
+Dans le cadre de cette méthode de travail, le Développeur s’engage à concevoir un Livrable conformément à la méthode Agile. Le développement du Livrable fait en conséquence l’objet de plusieurs Itérations. Une description détaillée de cette méthodologie, si choisie, est définie dans les Conditions particulières du contrat.
 
-Le Client s’engage à fournir à {{ company.name }} les Éléments apportés. Il est
-précisé à ce titre, sauf mention contraire dans les Conditions particulières,
-que la rédaction des textes et la saisie du contenu administrable est à la
-charge exclusive du Client.
+### 3.2 Développement planifié
 
-Le Client s’engage à réagir dans un délai de 3 jours à partir de la mise en
-demeure au plus tard à toute demande de {{ company.name }} relative à la réalisation
-du Livrable. Le Client reconnaît que son implication et sa collaboration sont
-nécessaires pour la bonne exécution du contrat. Tout retard ou défaut de
-diligence du Client pourra entraîner un report de livraison de {{ company.name }}
-supérieur d’une semaine à la durée dudit retard ou défaut de diligence, sans
-que ce report ne puisse constituer une faute de {{ company.name }} ou un préjudice
-pour le Client.
-
-## Article 5. Méthodes de travail
-
-Les parties déterminent dans les Conditions particulières l’une des méthodes
-de travail suivantes :
-
-### 5.1 Développements itératifs
-
-Dans le cadre de cette méthode de travail, {{ company.name }} s’engage à concevoir
-un Livrable conformément à la méthode Agile. Le développement du Livrable fait
-en conséquence l’objet de plusieurs Itérations.
-
-Chaque Itération est soumise au plan de travail suivant :
-
-Les parties conviennent de la durée de l’Itération (généralement entre 5 et 10
-jours ouvrés).
-
-Le Client définit les spécifications fonctionnelles du projet dans un document
-appelé Icebox.
-
-{{ company.name }} exprime ces spécifications fonctionnelles en terme de
-fonctionnalités techniques auxquelles est associé un indice de difficulté, dans
-un document appelé Backlog.
-
-Le Client détermine les priorités parmi les fonctionnalités techniques
-définies par {{ company.name }}.
-
-Le cycle de développement peut commencer lorsque les parties considèrent que
-la charge de travail est suffisante pour l’Itération.
-
-Lors d’un bref entretien quotidien (environ 10 minutes), les parties font le
-point sur l’état d’avancement et les problèmes rencontrés.
-
-Aux termes de l’Itération, le Livrable est livré au Client et réceptionné
-conformément à l’article 7 des présentes.
-
-À l’issue de l’Itération, un bilan est effectué entre les parties, afin de
-savoir si une nouvelle Itération est nécessaire pour la mise en production du
-Livrable.
-
-
-### 5.2 Développement planifié
-
-Dans ce cadre, {{ company.name }} s’engage à concevoir un Livrable selon la méthode
-classique de développement, dite Waterfall. Le développement complet du
+Dans ce cadre, le Développeur s’engage à concevoir un Livrable selon la méthode classique de développement, dite Waterfall. Le développement complet du
 Livrable se déroulera alors en deux étapes.
 
-#### 6.1. Étape 1 – Conception du Livrable
+#### 3.2.1 Étape 1 – Conception du Livrable
 
 Suite à la remise par le Client des informations nécessaires à la réalisation
-du Livrable, {{ company.name }} établira l’architecture du Livrable, en tenant
-compte, le cas échéant, du cahier des charges fourni par le Client.
+du Livrable, le Développeur établira l’architecture du Livrable, en tenant compte, le cas échéant, du cahier des charges fourni par le Client.
 
-#### 6.2 Étape 2 – Réalisation du Livrable
+#### 3.2.2 Étape 2 – Réalisation du Livrable
 
-Suite à la validation de l’architecture par le Client, {{ company.name }} procédera
-à la réalisation du Livrable. Au terme de la phase de développement, le
-Livrable est livré au Client et réceptionné conformément à l’article 7 des
-présentes.
+Suite à la validation des Spécifications fonctionnelles par le Client, le Développeur procédera à la réalisation du Livrable. Au terme de la phase de développement, le
+Livrable est livré au Client et réceptionné conformément à l’article 6 des présentes.
 
+### 3.3 Méthode ad hoc
 
-### 5.3 Méthode ad hoc
+Les parties pourront convenir d’une méthode de travail ad hoc. Dans ce cas, la méthode de travail envisagée fera l’objet d’une description dans les Conditions particulières du contrat. Sauf mention contraire, Le Livrable est livré au Client et réceptionné conformément à l’article 6 des présentes.
 
-Les parties pourront convenir d’une méthode de travail ad hoc. Dans ce cas, la
-méthode de travail envisagée fera l’objet d’une description dans les
-Conditions particulières.
+## Article 4. Livraison
 
+Le processus de Livraison dépend de la méthodologie de travail et du projet, et sera décrit dans les Conditions particulières du contrat.
 
-## Article 6. Procédure de réception
+## Article 5. Responsabilité
 
-À la fin de chacune des phases de développement, {{ company.name }} livre au Client
-un Livrable. Dans un délai de 1 semaine à compter de la livraison, le Client
-valide le Livrable ou émet des réserves sur celui-ci.
+### 5.1. Limitation de responsabilité
 
-Si le Client émet des réserves dans le délai précité, {{ company.name }} procédera
-aux Corrections du Livrable, à l’exclusion de toute Évolution.
+Le Développeur n’est pas responsable des dommages que l’installation du Livrable pourrait causer aux serveurs et matériels informatiques du Client.
 
-Si le Client n’a émis aucune réserve dans le délai précité, le Livrable soumis
-au Client est considéré comme étant tacitement réceptionnée par celui-ci.
+Dans l’hypothèse où le Client réaliserait lui-même une Évolution ou en confierait la réalisation à un tiers, le Développeur ne sera plus en mesure de prendre en charge les Patchs du Livrable. Le Développeur exclut par ailleurs toute responsabilité au titre des Évolutions apportées par le Client ou un tiers contracté par le Client au Livrable.
 
+La réception du Livrable par le Client couvre les défauts de conformité apparents et les vices apparents. Toute action à l’encontre de le Développeur, notamment au titre d’un défaut de conformité caché ou d’un vice caché, est
+prescrite dans le délai d’un an à compter de la réception définitive du Livrable par le Client.
 
-## Article 7. Responsabilité
-
-### 7.1. Limitation de responsabilité
-
-{{ company.name }} n’est pas responsable des dommages que l’installation du Livrable
-pourrait causer aux serveurs et matériels informatiques du Client.
-
-Dans l’hypothèse où le Client réaliserait lui-même une Évolution ou en
-confierait la réalisation à un tiers, {{ company.name }} ne sera plus en mesure de
-prendre en charge les Corrections du Livrable. {{ company.name }} exclut par
-ailleurs toute responsabilité au titre des Évolutions apportées par le Client
-ou un tiers au Livrable.
-
-La réception du Livrable par le Client couvre les défauts de conformité
-apparents et les vices apparents. Toute action à l’encontre de {{ company.name }},
-notamment au titre d’un défaut de conformité caché ou d’un vice caché, est
-prescrite dans le délai d’un an à compter de la réception définitive du
-Livrable par le Client.
-
-{{ company.name }} exclut toute responsabilité au titre de la réservation ou de
-l’utilisation d’un signe distinctif (nom de domaine, marque, titre, nom
-commercial, dénomination sociale…) à laquelle le Client lui aurait demandé de
+Le Développeur exclut toute responsabilité au titre de la réservation ou de l’utilisation d’un signe distinctif (nom de domaine, marque, titre, nom commercial, dénomination sociale…) à laquelle le Client lui aurait demandé de
 procéder.
 
-La responsabilité de {{ company.name }} est limitée au préjudice direct, personnel
-et certain subi par le Client et lié à la défaillance en cause. {{ company.name }}
-ne pourra en aucun cas être tenue responsable des dommages indirects tels que,
-notamment, les pertes de données, les préjudices commerciaux, les pertes de
-commandes, les atteintes à l’image de marque, les troubles commerciaux et les
-pertes de bénéfices ou de clients. Le montant des dommages et intérêts mis à
-la charge de {{ company.name }} ne pourra excéder le montant du prix total du
+La responsabilité du Développeur est limitée au préjudice direct, personnel et certain subi par le Client et lié à la défaillance en cause. Le Développeur ne pourra en aucun cas être tenue responsable des dommages indirects tels que,
+notamment, les pertes de données, les préjudices commerciaux, les pertes de commandes, les atteintes à l’image de marque, les troubles commerciaux et les
+pertes de bénéfices ou de clients. Le montant des dommages et intérêts mis à la charge de le Développeur ne pourra excéder le montant du prix total du
 Livrable, tel qu’indiqué dans les Conditions particulières.
 
-Aux termes de chaque Itération, {{ company.name }} conserve son entière liberté de
-poursuivre ou de ne pas poursuivre le projet avec le Client. {{ company.name }}
+Aux termes de chaque jalon, le Développeur conserve son entière liberté de poursuivre ou de ne pas poursuivre le projet avec le Clientw selon les critères décrits dans les Conditions particulières de contrat. Le Développeur
 pourra en conséquence arrêter les développements après chaque livraison d’une
-Itération, sans que cela ne constitue une faute de {{ company.name }} ou un
-préjudice pour le Client.
+Itération, sans que cela ne constitue une faute du Développeur ou un préjudice pour le Client.
 
+### 5.2. Force majeure et faute du Client
 
-### 7.2. Force majeure et faute du client
+Le Développeur n’engagera pas sa responsabilité en cas de force majeure ou de faute du Client, telles que définies ci-après :
 
-{{ company.name }} n’engagera pas sa responsabilité en cas de force majeure ou de
-faute du Client, telles que définies ci-après :
+Sera considéré comme un cas de force majeure opposable au Client tout empêchement, limitation ou dérangement du fait d’incendie, d’épidémie, de pandémie, d’explosion, de tremblement de terre, de catastrophes industrielles et nucléaires, de fluctuations de la bande passante, de
+manquement imputable au fournisseur d’accès, de défaillance des réseaux de transmission, d’effondrement des installations, d’utilisation illicite ou
+frauduleuse des mots de passe, codes ou références fournis au Client, de piratage informatique, d’une faille de sécurité imputable à l’hébergeur du Livrable, d’inondation, de panne d’électricité, de guerre, d'attentats terroristes, d’embargo, de loi, d’injonction, de demande ou d’exigence de tout gouvernement, de perquisition, de réquisition, de grève, de boycott, ou autres circonstances hors du contrôle raisonnable du Développeur.
 
-Sera considéré comme un cas de force majeure opposable au Client tout
-empêchement, limitation ou dérangement du fait d’incendie, d’épidémie,
-d’explosion, de tremblement de terre, de fluctuations de la bande passante, de
-manquement imputable au fournisseur d’accès, de défaillance des réseaux de
-transmission, d’effondrement des installations, d’utilisation illicite ou
-frauduleuse des mots de passe, codes ou références fournis au Client, de
-piratage informatique, d’une faille de sécurité imputable à l’hébergeur du
-Site, d’inondation, de panne d’électricité, de guerre, d’embargo, de loi,
-d’injonction, de demande ou d’exigence de tout gouvernement, de réquisition,
-de grève, de boycott, ou autres circonstances hors du contrôle raisonnable de
-{{ company.name }}.
+Sera considérée comme une faute du Client opposable à ce dernier toute mauvaise utilisation du Livrable, faute, négligence, omission ou défaillance de sa part ou de celle de ses préposés, non-respect des conseils donnés par le Développeur.
 
-Sera considérée comme une faute du Client opposable à ce dernier toute
-mauvaise utilisation du Livrable, faute, négligence, omission ou défaillance
-de sa part ou de celle de ses préposés, non-respect des conseils donnés par
-{{ company.name }}.
+## Article 6. Garanties et acceptation du Livrable
 
+### 6.1. Garanties du Développeur
 
-## Article 8. Garanties
-
-### 8.1. Garanties de {{ company.name }}
-
-{{ company.name }} garantit au Client que le Livrable sera achevé et livré
+Le Développeur garantit au Client que le Livrable sera achevé et livré
 conformément aux documents contractuels.
 
-À défaut de mention contraire dans les Conditions particulières concernant la
-licence de droit de propriété intellectuelle, {{ company.name }} ne donne pas
-d’autre garantie que celle de l’éviction de son fait personnel et de
-l’existence matérielle des droits cédés.
+### 6.2. Garanties du Client
 
-### 8.2. Garanties du Client
+Le Client assure posséder tous les droits et autorisations qui permettent l'utilisation des Ressources apportées. Il garantit le Développeur contre toute action ou demande d'une tierce partie, notamment en matière de propriété intellectuelle à propos des Ressources fournies.
 
-Le Client déclare être titulaire de tous les droits et autorisations
-permettant l’utilisation des Éléments apportés aux fins des présentes. Il
-garantit {{ company.name }} contre toute action et revendication de tiers du fait
-des Éléments apportés.
+### 6.3. Acceptation du Livrable
 
+Les critères d'acceptation du Livrable sont définies comme un ensemble formel de besoins, règles, tests, standards et Spécifications fonctionnelles qui doivent être utilisés pour évaluer et vérifier le résultat du projet par le Client et accepter le Livrable.
 
-## Article 9. Propriété intellectuelle
+Ils sont spécificés dans les Conditions particulières de contrat.
 
-### 9.1. Titularité des droits sur le Livrable
+Le rejet du Livrable peut être accepté par les deux parties uniquement s'il y a un moyen répétable de prouver qu'un critère est non satisfait, par exemple par une malfonction.
+
+Le rejet du Livrable ne peut pas être accepté s'il est causé par un bug du langage ou framework utilisé pour le développement du Livrable, où à la modification de code en dehors de la base de code du Livrable (interactions avec des APIs tierces, modifications de la base de données, de librairies tierces, etc.).
+
+En raison de la nature du développement informatique, cette acceptation doit être faite dans des délais raisonnables : dès la Livraison, le Client dispose de 60 jours pour accepter le Livrable. Après cette période, le projet aura atteint les attentes du Client et le Livrable sera considéré comme accepté.
+
+## Article 7. Propriété intellectuelle
+
+### 7.1. Titularité des droits sur le Livrable
 Le Livrable est composé le cas échéant :
 
 * d’un framework : composant logiciel structurel, définissant les fondations
@@ -271,19 +152,19 @@ Le Livrable est composé le cas échéant :
   investi des droits sur le framework conformément à cette licence spécifique.
 
 * des développements spécifiques : contenus réalisés spécifiquement par
-  {{ company.name }} pour le Client dans le cadre de la méthode Agile. Le Client est
+  le Développeur pour le Client. Le Client est
   investi des droits sur les développements spécifiques conformément à
-  l’article 9.2 des présentes conditions générales ;
+  l’article 7.2 des présentes conditions générales ;
 
-* des Éléments apportés : contenus de toute nature (codes, textes, images,
-  sons…) insérés dans le Livrable, soit par {{ company.name }} à la demande du
+* des Ressources apportées : contenus de toute nature (codes, textes, images,
+  sons…) insérés dans le Livrable, soit par le Développeur à la demande du
   Client, soit par le Client lui-même. Le Client reste titulaire des droits
-  sur les Éléments apportés qu’il met à la disposition de {{ company.name }} pour la
+  sur les Ressources apportées qu’il met à la disposition du Développeur pour la
   réalisation de la prestation.
 
-### 9.2. Licence exclusive sur le Livrable
+### 7.2. Licence exclusive sur le Livrable
 
-À défaut de mention contraire dans les Conditions particulières, {{ company.name }}
+À défaut de mention contraire dans les Conditions particulières, le Développeur
 consent au Client à titre exclusif une licence portant sur l’intégralité des
 droits patrimoniaux sur les développements spécifiques, et notamment sur les
 droits d’exploitation, de reproduction, de représentation, d’édition, de
@@ -294,137 +175,95 @@ tous les réseaux de communication, actuels et futurs, et ce sur tout support,
 en tout format.
 
 S’il s’agit de logiciel, la présente licence porte sur le code objet, le code
-source et la documentation du logiciel, {{ company.name }} autorisant le Client à
+source et la documentation du logiciel, le Développeur autorisant le Client à
 accéder aux codes du logiciel.
 
 À défaut de mention contraire dans les Conditions particulières, le Client ne
 pourra pas consentir de sous-licences sur les développements spécifiques.
 
-### 9.3. Rémunération au titre de la licence
+### 7.3. Rémunération au titre de la licence
 
-La rémunération de {{ company.name }} au titre de la licence des droits d’auteur sur
+La rémunération du Développeur au titre de la licence des droits d’auteur sur
 les développements spécifiques est forfaitaire.
 
-{{ company.name }} ne pourra prétendre au titre de sa prestation et de la licence de
+Le Développeur ne pourra prétendre au titre de sa prestation et de la licence de
 droit d’auteur sur les développements spécifiques à d’autres rémunérations que
 celles stipulées dans les Conditions particulières.
 
-### 9.4. Droit de paternité
+### 7.4. Droit de paternité
 
-À défaut de mention contraire dans les conditions particulières, le nom de
-{{ company.director }}, auteur originaire du Logiciel, devra être associé au Livrable au
-cours de son exploitation. S’il s’agit d’un site web, le nom de {{ company.director }}
-apparaîtra :
+À défaut de mention contraire dans les conditions particulières, le nom du Développeur, auteur originaire du Logiciel, devra être associé au Livrable au cours de son exploitation.
 
-sur une page appelé « Crédit », « Informations légales » ou « Mentions légales
-» accessible depuis la page d’accueil du site et comportant un lien hypertexte
-vers [{{ company.url_nice }}]({{ company.url }});
+### 7.5. Actions en justice
 
-dans le header du code html des pages web du site sous la balise « Creator ».
-
-### 9.5. Actions en justice
-
-À défaut de mention contraire dans les conditions particulières, seule
-{{ company.name }} aura qualité pour exercer les actions en contrefaçon et
+À défaut de mention contraire dans les conditions particulières, seul le Développeur aura qualité pour exercer les actions en contrefaçon et
 concurrence déloyale relatives aux exploitations non autorisées des
 développements spécifiques.
 
-Toutefois, lorsque {{ company.name }} aura autorisé le Client à consentir des
+Toutefois, lorsque le Développeur aura autorisé le Client à consentir des
 sous-licences sur les développements spécifiques, seul le Client aura qualité
 pour exercer les actions en contrefaçon et concurrence déloyale relatives aux
 exploitations non autorisées des développements spécifiques.
 
+## Article 8. Évolution - Maintenance
 
-## Article 10. Évolution - Maintenance
-
-{{ company.name }} autorise le Client à effectuer lui-même des Évolutions du
+Le Développeur autorise le Client à effectuer lui-même des Évolutions du
 Livrable et à en assurer la maintenance.
 
-Toutefois, si le Client souhaite confier les Évolutions ou la maintenance du
-Livrable à un prestataire, le Client s’engage à proposer en priorité la prise
-en charge de cette prestation à {{ company.name }}, qui s’engage en contrepartie à
-proposer au Client des conditions tarifaires similaires à celles consenties
-aux termes du présent contrat.
+## Article 9. Durée
 
+Ce contrat est effectif dès sa signature, et à moins d'être résilié en raison des causes énumérées dans l'article 13 de ce Document, continuera jusqu'à ce que les Services aient été complétés de manière satisfaisante par le Développeur et payés en totalité par le Client.
 
-## Article 11. Prix et modalités de paiement
+This Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Article 13 of this Document, will continue until the Services have been satisfactorily completed and the Developer has been paid in full for such Services (the “Term”) [or on the expiration of the Warranty Period as defined in the Particular conditions of contract.].
 
-### 11.1. Prix
+## Article 10. Prix et paiement
 
-Le taux horaire ou journalier est celui convenu dans les Conditions
-particulières.
+### 10.1. Prix
 
-À défaut de stipulation contraire dans les Conditions particulières, le
-paiement interviendra avant le commencement de chacune des Itérations
+Tous les prix sont explicités dans les conditions particulières du contrat.
+Le Développeur et le Client peuvent se mettre d'accord sur un tarif journalier ou un prix par-projet.
 
-### 11.2. Rabais – Remise - Ristourne
+### 10.2. Conditions du paiement lors d'offre de prix par projet
 
-Sauf accord exprès des Parties, aucun rabais, remise, ristourne ou escompte ne
-sera accordé au Client.
+À la signature du contrat, une avance de 35 % du prix total sera payée par le Client dans un délai de 10 jours ouvrables au Développeur. À moins que cela ne soit spécifié dans les conditions particulières du contrat, la conception et le développement du Livrable commencent lorsque l'avance a été reçue par le Développeur.
 
-### 11.3. Intérêts en cas de retard
+Le reste du calendrier de paiement doit être indiqué dans les conditions particulières du contrat.
 
-En cas de non-paiement à son échéance, toute somme due portera automatiquement
-intérêt conformément aux dispositions légales en vigueur.
+### 10.3. Pénalités de paiement en retard
 
-### 11.4. Rémunération supplémentaire
+Comme précisé dans la loi Française, des pénalités de retard de paiement s'appliqueront au taux annuel de refinancement de la BCE majoré de 10 points, plus une compensation de 40 euros pour les frais de recouvrement.
+
+### 10.4. Rémunération supplémentaires
 
 En cas de demandes de la part du Client entraînant une charge de travail
-supplémentaire pour {{ company.name }}, les parties conviendront, avant toute
-modification du Plan de travail ou du Cahier des charges, du versement d’une
-somme supplémentaire au profit de {{ company.name }}.
+supplémentaire pour le Développeur, les parties conviendront, avant toute
+modification des Spécifications Fonctionnelles, du versement d’une
+somme supplémentaire ou d'un nombre de jours de travail supplémentaires.
 
+## Article 11. Références
 
-## Article 12. Références
-
-Sauf interdiction expresse du Client dans un délai d’un mois à compter de la
-réception du Livrable, {{ company.name }} est autorisé à utiliser le nom du Client,
-ainsi que l’image de la page d’accueil du Livrable, dans le cadre de sa
+Sauf interdiction expresse du Client dans un délai d’un mois à compter de la réception du Livrable, le Développeur est autorisé à utiliser le nom du Client, son logo, ainsi qu'une sélection d’images du Livrable, dans le cadre de sa
 promotion commerciale et publicitaire.
 
+## Article 12. Propriété
 
-## Article 13. Réserve de propriété
+Le Développeur se réserve expressément la propriété du Livrable jusqu’au paiement intégral de son prix en principal et intérêts. Le Client en deviendra toutefois propriétaire dès sa livraison, à l'exclusion des exceptions de propriété intellectuelle définies dans l'article 7 des présentes. Le transfert de possession au Client entraine celui des risques.
 
-{{ company.name }} se réserve expressément la propriété du Livrable jusqu’au
-paiement intégral de son prix en principal et intérêts. Le Client en deviendra
-toutefois responsable dès sa livraison, le transfert de possession entraînant
-celui des risques.
+## Article 13. Résiliation du Contrat
 
+En cas de manquement grave de l’une ou l’autre des parties aux obligations du présent Document non réparé dans un délai de 15 jours à compter de la présentation de la lettre recommandée avec accusé de réception notifiant ledit
+manquement, le présent contrat sera résilié de plein droit sans préjudice des dommages et intérêts auxquels les parties pourraient prétendre.
 
-## Article 14. Non-sollicitation
+Le fait pour une des parties de ne pas se prévaloir d’un manquement par l’autre partie à l’une des obligations visées dans les présentes ne saurait être interprété pour l’avenir comme une renonciation à l’obligation en cause.
 
-Afin de garantir l’équilibre économique du Contrat, le Client s’engage à ne
-pas embaucher, tenter d’embaucher ou faire travailler directement ou
-indirectement un salarié, un collaborateur ou un sous-traitant de {{ company.name }}
-durant l’exécution du présent contrat et jusqu’à 5 ans après la réception du
-Livrable.
+## Article 14. Confidentialité
 
-En cas de non-respect de cette clause, le Client devra verser à {{ company.name }} à
-titre de clause pénale, et sans préjudice des éventuels dommages-intérêts
-auxquels pourrait prétendre {{ company.name }}, une somme égale à la rémunération de
-{{ company.name }} stipulée dans les Conditions particulières.
+Les deux parties considèrent toute information partagée durant la relation établiée par ce Document comme strictement confidentielle. Elles prendront les dispositions adaptées pour protéger cette confidentialité. Cette clause de confidentialité commencera quand le Client signera le présent Document, et durera cinq ans.
 
+## Article 15. Loi applicable et jurisdiction
 
-## Article 15. Résiliation
+Ce présent Document est soumis à la loi Française.
 
-En cas de manquement grave de l’une ou l’autre des parties aux obligations du
-présent contrat non réparé dans un délai de 15 jours à compter de la
-présentation de la lettre recommandée avec accusé de réception notifiant ledit
-manquement, le présent contrat sera résilié de plein droit sans préjudice des
-dommages et intérêts auxquels les parties pourraient prétendre.
+S'il doit se soumettre à la loi d'un autre Pays, cela doit être explicité dans les Conditions particulières du contrat.
 
-Le fait pour une des parties de ne pas se prévaloir d’un manquement par
-l’autre partie à l’une quelconque des obligations visées dans les présentes ne
-saurait être interprété pour l’avenir comme une renonciation à l’obligation en
-cause.
-
-
-## Article 16. Loi applicable et juridiction compétente
-
-Le présent contrat est soumis à la loi française.
-
-En cas de litige, la compétence exclusive est attribuée aux tribunaux de
-Paris, même pour les procédures d’urgence ou conservatoire en référé ou par
-requête, nonobstant pluralité de défendeurs ou appel en garantie.
-
-
+En cas de litige juridique, la compétence exclusive est attribuée aux tribunaux de Lyon ou Paris, même pour les procédures d’urgence ou conservatoire en référé ou par requête, nonobstant pluralité de défendeurs ou appel en garantie.

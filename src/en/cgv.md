@@ -18,7 +18,7 @@ Hereinafter named  the « Customer »,
 __Deliverable__ : Working version of a website, software, mobile application, graphical elements, editorial elements,
 delivered by the Developer to the Customer at the set milestone or due date.
 
-__Specifications__ : Functional specifications defined by the Customer, and agreed upon by both parties.
+__Specifications__ : Functional specifications defined by the Customer, with or without the participation of the Developer and agreed upon by both parties.
 
 __Patch__ : Any error or bug correction on the Deliverable, with no other end than correcting dysfunctions or errors.
 
@@ -48,7 +48,7 @@ The Customer commits to provide to the Developer the Provided assets. It is spec
 The Customer commits to react or answer in a delay of 3 working days to sollicitations necessary to the good endeavour of the contract.
 The Customer acknowledges that his involvment and collaboration are necessary for the good endeavour of the contract, as well as his team's involvment if necessary.
 
-Any lateness or due diligence default can imply a delivery adjournment of the Deliverable by the Developer of the duration of the said lateness plus a working week. This adjournment cannot establish a malpractice of the Developer or a damage to the Customer.
+Any lateness or due diligence default by the Client can imply a delivery adjournment of the Deliverable by the Developer of the duration of the said Client lateness plus a working week. This adjournment cannot establish a malpractice of the Developer or a damage to the Customer.
 
 ## Article 3. Working practices
 
@@ -103,10 +103,10 @@ Any plea against the Developer about a hidden defect must be done within a year 
 
 ### 5.2. Force majeure and Customer responsibility
 
-the Developer will not engage its responsibility in case of force majeure or Customer responsibility, thereafter described:
+The Developer will not engage its responsibility in case of force majeure or Customer responsibility, thereafter described:
 
 Will be considered a case of force majeure opposable to the Customer any impediment, limitation, disruption or disturbance owing to
-a fire event, explosion, epidemic, pandemic, earthquake, industrial or nuclear disaster, fluctuation of internet providers bandpass or service, collapses of buildings, illicit or fraudulent use of passwords, codes or references provided to the Customer, illegal hacking into the hosting service provider of the Deliverable or third-party necessary to its development, flooding, electricty outage, war, embargo, law, injonction of law or demand of any government, requisition, strike, boycott, police search, or other circonstances out of reasonable control of the Developer.
+a fire event, explosion, epidemic, pandemic, earthquake, industrial or nuclear disaster, fluctuation of internet providers bandpass or service, collapses of buildings, illicit or fraudulent use of passwords, codes or references provided to the Customer, illegal hacking into the hosting service provider of the Deliverable or third-party necessary to its development, flooding, electricty outage, war, terror attacks, embargo, law, injonction of law or demand of any government, requisition, strike, boycott, police search, or other circonstances out of reasonable control of the Developer.
 
 Will be considered a Customer fault opposable to the latter any wrong use of the Deliverable, fault, negligence, omission or failure of his part, or non-respect of advice and directions provided by the Developer.
 
@@ -198,7 +198,7 @@ For both parties, in case of a breach of obligations described in this Document 
 
 ## Article 14. Confidentiality
 
-Both parties consider all information shared during the relationship established by the contract as strictly confidential. They will take appropriate measures to protect it. This confidentiality clause will start when the Customer accepts the present Document, and will last for ten years.
+Both parties consider all information shared during the relationship established by the contract as strictly confidential. They will take appropriate measures to protect it. This confidentiality clause will start when the Customer accepts the present Document, and will last for five years.
 
 ## Article 15. Applicable law and relevant jurisdiction
 
