@@ -1,6 +1,5 @@
 # Conditions Générales de vente de {{ company.name }}, applicables à compter du {{ cgv.startDate }}
 
-
 ENTRE LES SOUSSIGNÉS
 
 {{ company.name }}, {{ company.description }},
@@ -213,8 +212,6 @@ Livrable et à en assurer la maintenance.
 ## Article 9. Durée
 
 Ce contrat est effectif dès sa signature, et à moins d'être résilié en raison des causes énumérées dans l'article 13 de ce Document, continuera jusqu'à ce que les Services aient été complétés de manière satisfaisante par le Développeur et payés en totalité par le Client.
-
-This Agreement shall become effective as of the Effective Date and, unless otherwise terminated in accordance with the provisions of Article 13 of this Document, will continue until the Services have been satisfactorily completed and the Developer has been paid in full for such Services (the “Term”) [or on the expiration of the Warranty Period as defined in the Particular conditions of contract.].
 
 ## Article 10. Prix et paiement
 
