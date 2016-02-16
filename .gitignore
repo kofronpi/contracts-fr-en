@@ -9,3 +9,5 @@ tmp/*.md
 # Do not commit environment variable
 .env
 .bundle
+.ruby-version
+.ruby-gemset
