@@ -3,6 +3,8 @@ GEM
   specs:
     RedCloth (4.2.9)
     coderay (1.1.0)
+    combine_pdf (0.2.15)
+      ruby-rc4 (>= 0.1.5)
     gimli (0.5.9)
       RedCloth (~> 4.2.7)
       coderay (~> 1.1)
@@ -28,6 +30,7 @@ GEM
     rake (10.4.2)
     redcarpet (3.2.3)
     ref (1.0.5)
+    ruby-rc4 (0.1.5)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
@@ -38,7 +41,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  combine_pdf
   gimli
   handlebars
   prawn
   rake
+
+BUNDLED WITH
+   1.11.2
