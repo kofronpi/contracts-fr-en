@@ -16,10 +16,12 @@ task :handlebars do |t, args|
     unless SUPPORTED_LOCALES.include? ENV['locale']
   raise "Mode is invalid. Please choose from: #{SUPPORTED_MODES}"  \
     unless SUPPORTED_MODES.include? ENV['mode']
+  `mkdir -p tmp/#{ENV['mode']}`
   handlebars = Handlebars::Context.new
   ['cp', 'cgv', 'pcc', 'maintenance'].each do |file|
+    next unless File.exists?("src/#{ENV['locale']}/#{ENV['mode']}/#{file}.md")
     File.write(
-      "tmp/#{file}.md",
+      "tmp/#{ENV['mode']}/#{file}.md",
       handlebars.compile(
         File.read("src/#{ENV['locale']}/#{ENV['mode']}/#{file}.md")
       ).call(
@@ -34,8 +36,9 @@ end
 task :pdf do
   `mkdir -p contracts/#{ENV['mode']}`
   ['cp', 'cgv', 'pcc', 'maintenance'].each do |file|
+    next unless File.exists?("tmp/#{file}.md")
     `rm -f contracts/#{ENV['mode']}/#{file}.pdf`
-    `gimli -stylesheet style.css -f tmp/#{file}.md -o contracts/#{ENV['mode']}`
+    `gimli -stylesheet style.css -f tmp//#{ENV['mode']}/#{file}.md -o contracts/#{ENV['mode']}`
   end
 end
 

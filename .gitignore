@@ -6,6 +6,7 @@ clients
 contracts
 config.json
 tmp/*.md
+tmp/*
 # Do not commit environment variable
 .env
 .bundle
