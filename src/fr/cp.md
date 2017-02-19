@@ -40,7 +40,7 @@ EN TÉMOIGNAGE DE QUOI, les Parties ont approuvé ce Contrat et ses Documents Co
 
 Le Client
 
-{{ customer.name }}
+_{{ client.name }}_
 
 Par:
 
@@ -56,11 +56,6 @@ Signature:
 Le Développeur
 
 {{ company.name }}
-
-Par :
-
-Titre :
-
 
 Signature :
 
